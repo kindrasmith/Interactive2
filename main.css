@@ -10,7 +10,12 @@
 
       }
 
-
+.centerstuff{
+  height:100vh;
+   display: grid;
+   align-items:center;
+   justify-content:center;
+}
 
 
     .hollowcircle{
@@ -25,6 +30,38 @@
              position: absolute;
            }
 
+
+      .halfcircle{
+              content:'';
+              position:absolute;
+              width:30px;
+              height:30px;
+              border:30px solid transparent;
+              border-top-color:black;
+              border-right-color:black;
+              transform:rotate(-135deg);
+              border-radius:50%;
+
+            }
+                .up{
+                    transform: rotate(-45deg);
+                  }
+                  .down{
+                        transform: rotate(-225deg);
+                  }
+                  .side{
+                        transform: rotate(405deg);
+                  }
+        .rounds{
+          width:25px;
+          height: 25px;
+          background-color: black;
+          border-radius: 100%;
+    
+        }
+
+
+
     .circle{
       width: 30px;
       height: 30px;
@@ -34,25 +71,25 @@
     }
 
 
-.letter {
-  position:relative;
-  height:150px;
-  width:125px;
-}
+    .letter {
+      position:relative;
+      height:150px;
+      width:125px;
+    }
 
-.letter.w {
-  width:300px;
-}
+            .letter.w {
+              width:300px;
+            }
 
-.top {
-  top:0;
-}
-.bottom {
-  bottom:0;
-}
-.right {
-  right:0;
-}
-.left {
-  left:0;
-}
+    .top {
+      top:0;
+    }
+    .bottom {
+      bottom:0;
+    }
+    .right {
+      right:0;
+    }
+    .left {
+      left:0;
+    }
