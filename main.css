@@ -23,10 +23,10 @@
              border-width: 60px 60px 60px 60px;
              border-radius: 100%;
              position: absolute;
-             margin-left: 40px;
+             /* margin-left: 40px;
              margin-right: 20px;
              margin-top: 90px;
-             margin-bottom: 20px;
+             margin-bottom: 20px; */
            }
 
     .circle{
@@ -34,7 +34,31 @@
       height: 60px;
       border-radius: 100px;
       position: absolute;
-      margin-top: 210px;
-      margin-left: 215px;
+      /* margin-top: 210px;
+      margin-left: 215px; */
       background-color: black;
     }
+
+
+.letter {
+  position:relative;
+  height:260px;
+  width:238px;
+}
+
+.letter.w {
+  width:300px;
+}
+
+.top {
+  top:0;
+}
+.bottom {
+  bottom:0;
+}
+.right {
+  right:0;
+}
+.left {
+  left:0;
+}
