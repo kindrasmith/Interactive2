@@ -49,6 +49,10 @@
                   .down{
                         transform: rotate(-225deg);
                   }
+                  .downy{
+                        transform: rotate(-225deg);
+                        margin-top: -30px;
+                  }
                   .side{
                         transform: rotate(405deg);
                   }
@@ -56,6 +60,18 @@
                       margin-left: 60px;
                         transform: rotate(-45deg);
                     }
+                    .doubledown{
+                        margin-left: 60px;
+                          transform: rotate(-225deg);
+                      }
+                    .downright{
+                          transform: rotate(-225deg);
+                          margin-left: 35px;
+                    }
+                    .xright{
+                      margin-left: 30px;
+                      }
+
 
           .quartercircle{
                           content:'';
@@ -123,6 +139,10 @@
                     left: 30px;
                     top: 65px;
                   }
+                  .emiddle {
+                    left: 60px;
+                    top: 90px;
+                  }
                   .fright {
                     left: 60px;
                     top: 30px;
@@ -134,7 +154,7 @@
                   .gright {
                     left: 60px;
                     top: 90px;
-              }
+                  }
 
                   .gmiddle {
                     left: 95px;
@@ -184,6 +204,68 @@
                     left: 60px;
                     top: 125px;
                   }
+                  .qleft {
+                    left: 35px;
+                    top: 90px;
+                  }
+                  .qright {
+                    left: 95px;
+                    top: 90px;
+                  }
+                  .sleft {
+                    left: 0px;
+                    top: 90px;
+                  }
+                  .sright {
+                    left: 60px;
+                    top: 90px;
+                  }
+                  .smiddle {
+                    left: 30px;
+                    top: 60px;
+                  }
+                  .uright{
+                    left: 60px;
+                    top: 55px;
+                  }
+                  .uleft{
+                    left: 0px;
+                    top: 55px;
+                  }
+                  .wright {
+                    left: 120px;
+                    top: 55px;
+                  }
+                  .wleft {
+                    left: opx;
+                    top: 55px;
+                  }
+                  .xtop {
+                    top: 1200px;
+                    left: 60px;
+                  }
+                  .xbottom {
+                    left: 60px;
+                    top: 120px;
+                  }
+                  .xtopl {
+                    left: 0px;
+                    top: 60px;
+                  }
+                  .xtopr {
+                    left: 60px;
+                    top: 60px;
+                  }
+                  .yright {
+                    left: 60px;
+                    top: 30px;
+                  }
+                  .yleft {
+                    left: 0px;
+                    top: 30px;
+                  }
+
+
 
 
     .top {
@@ -197,4 +279,7 @@
     }
     .left {
       left:0;
+    }
+    .lefty {
+      left:-30px;
     }
