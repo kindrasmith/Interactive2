@@ -52,14 +52,6 @@
                   .side{
                         transform: rotate(405deg);
                   }
-        .rounds{
-          width:25px;
-          height: 25px;
-          background-color: black;
-          border-radius: 100%;
-    
-        }
-
 
 
     .circle{
@@ -75,11 +67,46 @@
       position:relative;
       height:150px;
       width:125px;
+      float:left;
+      margin-right: 40px;
     }
 
             .letter.w {
               width:300px;
             }
+            .letter.c {
+              width:60px;
+            }
+            .letter.f {
+              width:65px;
+            }
+
+
+            .ctop {
+              left: 30px;
+              top: 60px;
+            }
+            .cbottom {
+              left: 30px;
+              top: 120px;
+            }
+                  .fleft {
+                    left: 0px;
+                    top: 30px;
+                  }
+                  .fright {
+                    left: 60px;
+                    top: 30px;
+                  }
+                  .fmiddle {
+                    left: 30px;
+                    top: 65px;
+                  }
+                  .gmiddle {
+                    left: 95px;
+                    top: 55px;
+                  }
+
 
     .top {
       top:0;
