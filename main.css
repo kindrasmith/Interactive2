@@ -53,6 +53,18 @@
                         transform: rotate(405deg);
                   }
 
+          .quartercircle{
+                          content:'';
+                          position:absolute;
+                          width:30px;
+                          height:30px;
+                          border:30px solid transparent;
+                          border-top-color:black;
+                          border-right-color:black;
+                          transform:rotate(-135deg);
+                          border-radius:50%;
+
+                        }
 
     .circle{
       width: 30px;
@@ -68,7 +80,8 @@
       height:150px;
       width:125px;
       float:left;
-      margin-right: 40px;
+      margin-right: 50px;
+      margin-top: 100px;
     }
 
             .letter.w {
@@ -79,6 +92,11 @@
             }
             .letter.f {
               width:65px;
+              margin-right: 65px;
+            }
+            .letter.h {
+              width:65px;
+              margin-left:-55px;
             }
 
 
@@ -94,19 +112,55 @@
                     left: 0px;
                     top: 30px;
                   }
-                  .fright {
-                    left: 60px;
-                    top: 30px;
-                  }
                   .fmiddle {
                     left: 30px;
                     top: 65px;
                   }
+                  .fright {
+                    left: 60px;
+                    top: 30px;
+                  }
+                  .gleft {
+                    left: 0px;
+                    top: 90px;
+                  }
+                  .gright {
+                    left: 60px;
+                    top: 90px;
+              }
+
                   .gmiddle {
                     left: 95px;
+                    top:0px;
+                  }
+                  .hright {
+                    left: 60px;
+                    top: 90px;
+                  }
+                  .hleft {
+                    left: 0px;
+                    top: 90px;
+                  }
+                  .itop {
+                    left: 30px;
+                    top: 23px;
+                  }
+                  .jtop {
+                    left: 60px;
+                    top: 40px;
+                  }
+                  .jdot {
+                    left: 60px;
                     top: 55px;
                   }
-
+                  .ktop {
+                    left: 65px;
+                    top: 60px;
+                  }
+                  .kbottom {
+                    left: 65px;
+                    top: 120px;
+                  }
 
     .top {
       top:0;
