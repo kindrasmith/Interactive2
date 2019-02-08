@@ -52,6 +52,10 @@
                   .side{
                         transform: rotate(405deg);
                   }
+                  .double{
+                      margin-left: 60px;
+                        transform: rotate(-45deg);
+                    }
 
           .quartercircle{
                           content:'';
@@ -85,7 +89,7 @@
     }
 
             .letter.w {
-              width:300px;
+              width:160px;
             }
             .letter.c {
               width:60px;
@@ -97,6 +101,9 @@
             .letter.h {
               width:65px;
               margin-left:-55px;
+            }
+            .letter.small{
+              width: 90px;
             }
 
 
@@ -161,6 +168,23 @@
                     left: 65px;
                     top: 120px;
                   }
+                  .mright {
+                    left: 120px;
+                    top: 90px;
+                  }
+                  .mbright {
+                    left: 120px;
+                    top: 125px;
+                  }
+                  .mlleft {
+                    left: 0px;
+                    top: 125px;
+                  }
+                  .nright{
+                    left: 60px;
+                    top: 125px;
+                  }
+
 
     .top {
       top:0;
