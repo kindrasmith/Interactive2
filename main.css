@@ -12,6 +12,7 @@
 
 .centerstuff{
   height:100vh;
+  width: 1400px;
    display: grid;
    align-items:center;
    justify-content:center;
