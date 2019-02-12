@@ -3,20 +3,29 @@
    padding:0px;
    margin: 0px;}
 
-  body{ background-color: white;
+  body{ background-color: #802600;
         height:100vh;
         width:100vw;
-
-
       }
+      .first {
+  background:white;
+  background-size: cover;
+  height: 100vh;
+  width:100vw;
+  position: relative;
+}
+
 
 .centerstuff{
   height:100vh;
-  width: 1400px;
+
    display: grid;
    align-items:center;
    justify-content:center;
 }
+
+
+
 .low {
   top: 55px;
 }
@@ -36,7 +45,17 @@
 .quartercircle {
     clip-path: inset(0 50px 50px 0);
 }
+.quartercircle{
 
+                position:absolute;
+                width:30px;
+                height:30px;
+                border-radius:50%;
+              }
+
+              .upl{
+                transform: rotate(-90deg);
+              }
 
       .halfcircle{
               content:'';
@@ -85,18 +104,7 @@
 
 
 
-          .quartercircle{
-                          content:'';
-                          position:absolute;
-                          width:30px;
-                          height:30px;
-                          border:30px solid transparent;
-                          border-top-color:black;
-                          border-right-color:black;
-                          transform:rotate(-135deg);
-                          border-radius:50%;
 
-                        }
 
     .circle{
       width: 30px;
@@ -105,6 +113,17 @@
       position: absolute;
       background-color: black;
     }
+
+
+    .number {
+      position:relative;
+      height:70px;
+      width:70px;
+      float:left;
+      margin-right: 90px;
+      margin-top: 90px;
+    }
+
 
 
     .letter {
@@ -289,6 +308,76 @@
                     left: 30px;
                     bottom: 0px;
                   }
+/* NUMBERS */
+                  .threetop {
+                    left: 26px;
+
+                  }
+                  .threeright {
+                    left: 50px;
+                    top: 35px;
+                  }
+                  .threeleft {
+                    left: 2px;
+                    top: 35px;
+                  }
+
+                  .fourbottom {
+                    left: 27px;
+                    top: 60px;
+                  }
+                  .fourleft {
+                    left: 0px;
+                    top: 30px;
+                  }
+                  .fourright {
+                    left: 53px;
+                    top: 30px;
+                  }
+
+                  .fivemiddle {
+                    left: 25px;
+                    top: 40px;
+                  }
+                  .fivebottom {
+                    left: 25px;
+                    top: 80px;
+                  }
+                  .fiveleft {
+                    left: -15px;
+                    top: 40px;
+                  }
+                  .fiveright {
+                    left: 65px;
+                    top: 40px;
+                  }
+
+                  .sixtop {
+                    left: 20px;
+                    top: -35px;
+                  }
+                  .sixbottom {
+                    left: 20px;
+                    top: 75px;
+                  }
+
+                  .sevenbl {
+                    left: -10px;
+                    top: 60px;
+                  }
+                  .seventl {
+                    left: -10px;
+                    top: 20px;
+                  }
+                  .eightleft {
+                    left: -35px;
+                    top: 20px;
+                  }
+                  .eightright {
+                    left: 75px;
+                    top: 20px;
+                  }
+
 
 
 
