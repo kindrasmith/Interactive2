@@ -377,9 +377,20 @@
                     left: 20px;
                     top: 75px;
                   }
-
+                  .seventl {
+                    left: -10px;
+                    top: 0px;
+                  }
+                  .seventlr {
+                    left: 60px;
+                    top: 20px;
+                  }
                   .sevenbl {
                     left: -10px;
+                    top: 60px;
+                  }
+                  .sevenblr {
+                    left: 60px;
                     top: 60px;
                   }
                   .seventl {
@@ -393,6 +404,30 @@
                   .eightright {
                     left: 75px;
                     top: 20px;
+                  }
+                  .nineleft {
+                    left: 5px;
+                    top: 5px;
+                  }
+                  .nineright {
+                    left: 45px;
+                    top: 5px;
+                  }
+                  .bnineleft {
+                    left: 5px;
+                    top: 75px;
+                  }
+                  .bnineright {
+                    left: 45px;
+                    top: 75px;
+                  }
+                  .ninetop {
+                    left: 25px;
+                    top: -30px;
+                  }
+                  .ninebottom {
+                    left: 25px;
+                    top: 110px;
                   }
 
 
