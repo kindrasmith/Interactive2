@@ -26,7 +26,11 @@
 
 
 .low {
-  top: 55px;
+  top: 65px;
+}
+
+.hlow {
+  top: 30px;
 }
 
     .hollowcircle{
@@ -131,7 +135,7 @@
       width:115px;
       float:left;
       margin-right: 50px;
-      margin-top: 0px;
+      margin-bottom: 100px;
     }
 
             .letter.w {
@@ -187,7 +191,7 @@
                   }
 
                   .gmiddle {
-                    left: 95px;
+                    left: 85px;
                     top:0px;
                   }
                   .hright {
@@ -197,6 +201,10 @@
                   .hleft {
                     left: 0px;
                     top: 90px;
+                  }
+                  .htop {
+                    left: 0px;
+                    top: -30px;
                   }
 
                   .itop {
@@ -219,6 +227,16 @@
                     left: 55px;
                     top: 120px;
                   }
+                  .lbottom {
+                    left: 25px;
+                    top: 119px;
+                  }
+                  .ltop {
+                    left: 1px;
+                    top: 96px;
+                  }
+
+
                   .mright {
                     left: 120px;
                     top: 90px;
@@ -435,6 +453,22 @@
                 transform: translate(0, 0);
               }
             }
+
+
+                    .animatedTitle .dot2 {
+                      animation: dot2move 600ms ease-in-out;
+                      animation-delay: 2000ms;
+                    }
+
+
+                        @keyframes dot2move {
+                          from {
+                            transform: translate(250px, 0);
+                          }
+                          to {
+                            transform: translate(0, 0);
+                          }
+                        }
 
 
 
