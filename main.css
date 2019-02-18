@@ -107,7 +107,10 @@
                         margin-top: 25px;
 
                         }
+                        .topofs{
+                              transform: rotate(-225deg);
 
+                        }
 
 
 
@@ -126,9 +129,41 @@
       height:70px;
       width:70px;
       float:left;
-      margin-right: 90px;
+      margin-right: 80px;
       margin-top: 90px;
     }
+    .number.one{
+      margin-right: 30px;
+      margin-top: 120px;
+    }
+    .number.two{
+      margin-right: 30px;
+      margin-top: 100px;
+    }
+    .number.three{
+
+      margin-top: 100px;
+    }
+    .number.five{
+    margin-top: 80px;
+    }
+    .number.six{
+    margin-top: 100px;
+    }
+
+    .number.seven{
+      margin-right: 110px;
+      margin-top: 80px;
+    }
+    .number.eight{
+      margin-right: 100px;
+      margin-top: 100px;
+    }
+    .number.nine{
+
+      margin-top: 80px;
+    }
+
 
 
 
@@ -158,6 +193,7 @@
             .letter.small{
               width: 90px;
             }
+            
 
 
             .ctop {
@@ -340,20 +376,20 @@
                   }
 /* NUMBERS */
                   .threetop {
-                    left: 26px;
+                    left: 25px;
 
                   }
                   .threeright {
-                    left: 50px;
+                    left: 45px;
                     top: 35px;
                   }
                   .threeleft {
-                    left: 2px;
+                    left: 5px;
                     top: 35px;
                   }
 
                   .fourbottom {
-                    left: 27px;
+                    left: 25px;
                     top: 60px;
                   }
                   .fourleft {
@@ -361,7 +397,7 @@
                     top: 30px;
                   }
                   .fourright {
-                    left: 53px;
+                    left: 50px;
                     top: 30px;
                   }
 
@@ -544,7 +580,7 @@
 
             @keyframes dot1move {
               from {
-                transform: translate(325px, -40px);
+                transform: translate(355px, -40px);
               }
               to {
                 transform: translate(0, 0);
@@ -561,7 +597,7 @@
 
               @keyframes dot2move {
                 from {
-                  transform: translate(290px, -140px);
+                  transform: translate(320px, -140px);
                 }
                 to {
                   transform: translate(0, 0);
@@ -577,7 +613,7 @@
 
                   @keyframes dot3move {
                     from {
-                      transform:translate(75px, -55px);
+                      transform:translate(105px, -55px);
                     }
                     to {
                       transform: translate(0, 0);
@@ -595,7 +631,7 @@
 
                         @keyframes dot4move {
                           from {
-                            transform:  translate(15px,-25px);;
+                            transform:  translate(45px,-25px);;
                           }
                           to {
                             transform: translate(0, 0);
@@ -611,7 +647,7 @@
 
                         @keyframes dot5move {
                           from {
-                            transform: translate(-25px, -60px);
+                            transform: translate(5px, -60px);
                           }
                           to {
                             transform: translate(0, 0);
@@ -627,7 +663,7 @@
 
                       @keyframes dot6move {
                         from {
-                          transform: translate(-210px,-10px);
+                          transform: translate(-180px,-10px);
                         }
                         to {
                           transform: translate(0, 0);
@@ -643,7 +679,7 @@
 
                       @keyframes dot7move {
                         from {
-                          transform: translate(-190px, -95px);
+                          transform: translate(-160px, -95px);
                         }
                         to {
                           transform: translate(0, 0);
@@ -659,7 +695,7 @@
 
                         @keyframes dot8move {
                           from {
-                            transform: translate(-320px, -75px);
+                            transform: translate(-290px, -75px);
                           }
                           to {
                             transform: translate(0, 0);
