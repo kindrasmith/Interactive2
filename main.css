@@ -477,12 +477,13 @@
         .animatedTitle .dot1 {
           animation: dot1move 600ms ease-in-out;
           animation-delay: 2000ms;
+            animation-fill-mode: backwards;
         }
 
 
             @keyframes dot1move {
               from {
-                transform: translate(250px, 0);
+                transform: translate(168.594px, -26.75px);
               }
               to {
                 transform: translate(0, 0);
@@ -493,6 +494,7 @@
                     .animatedTitle .dot2 {
                       animation: dot2move 600ms ease-in-out;
                       animation-delay: 2000ms;
+                      animation-fill-mode: backwards;
                     }
 
 
