@@ -78,6 +78,9 @@
                   .down{
                         transform: rotate(-225deg);
                   }
+                  .downhalf{
+                        transform: rotate(-180deg);
+                  }
                   .downy{
                         transform: rotate(-225deg);
                         margin-top: -30px;
@@ -273,6 +276,16 @@
                     left: 30px;
                     top: 60px;
                   }
+                  .sbottom {
+                    left: 35px;
+                    top: 119px;
+                  }
+                  .stop {
+                    left: 59px;
+                    top: 96px;
+                  }
+
+
                   .uright{
                     left: 60px;
                     top: 55px;
@@ -459,7 +472,7 @@
 /* P */
         .animatedTitle .hollowcircle {
           animation: fadeIn 800ms ease-in-out;
-          animation-delay: 3000ms;
+          animation-delay: 30000ms;
           opacity: 0;
           animation-fill-mode: forwards;
         }
@@ -472,6 +485,51 @@
                     opacity: 1;
                   }
                 }
+                .animatedTitle .halfcircle{
+                  animation: fadeIn 800ms ease-in-out;
+                  animation-delay: 30000ms;
+                  opacity: 0;
+                  animation-fill-mode: forwards;
+                }
+
+                        @keyframes fadeIn {
+                          from {
+                            opacity: 0;
+                          }
+                          to {
+                            opacity: 1;
+                          }
+                        }
+                .animatedTitle .hleft{
+                  animation: fadeIn 800ms ease-in-out;
+                  animation-delay: 30000ms;
+                  opacity: 0;
+                  animation-fill-mode: forwards;
+                }
+
+                        @keyframes fadeIn {
+                          from {
+                            opacity: 0;
+                          }
+                          to {
+                            opacity: 1;
+                          }
+                        }
+                    .animatedTitle .hright{
+                      animation: fadeIn 800ms ease-in-out;
+                      animation-delay: 30000ms;
+                      opacity: 0;
+                      animation-fill-mode: forwards;
+                    }
+
+                            @keyframes fadeIn {
+                              from {
+                                opacity: 0;
+                              }
+                              to {
+                                opacity: 1;
+                              }
+                            }
 
 /* Alphabet Animation */
 
@@ -479,14 +537,14 @@
 /* top P */
         .animatedTitle .dot1 {
           animation: dot1move 600ms ease-in-out;
-          animation-delay: 2000ms;
+          animation-delay: 18000ms;
             animation-fill-mode: backwards;
         }
 
 
             @keyframes dot1move {
               from {
-                transform: translate(-188.594px, -61.75px);
+                transform: translate(325px, -40px);
               }
               to {
                 transform: translate(0, 0);
@@ -496,14 +554,14 @@
 /* Lower P */
                     .animatedTitle .dot2 {
                       animation: dot2move 600ms ease-in-out;
-                      animation-delay: 2000ms;
+                      animation-delay: 18000ms;
                       animation-fill-mode: backwards;
                     }
 
 
               @keyframes dot2move {
                 from {
-                  transform: translate(-331.406px, -16.75px);
+                  transform: translate(290px, -140px);
                 }
                 to {
                   transform: translate(0, 0);
@@ -512,14 +570,14 @@
 /* 1st A */
               .animatedTitle .dot3 {
                 animation: dot3move 600ms ease-in-out;
-                animation-delay: 2000ms;
+                animation-delay: 18000ms;
                 animation-fill-mode: backwards;
               }
 
 
                   @keyframes dot3move {
                     from {
-                      transform: translate(-188.594px, -18.25px);
+                      transform:translate(75px, -55px);
                     }
                     to {
                       transform: translate(0, 0);
@@ -530,14 +588,14 @@
   /* 1st N */
                     .animatedTitle .dot4 {
                       animation: dot4move 600ms ease-in-out;
-                      animation-delay: 2000ms;
+                      animation-delay: 18000ms;
                       animation-fill-mode: backwards;
                     }
 
 
                         @keyframes dot4move {
                           from {
-                            transform: translate(-386.406px, -48.25px);
+                            transform:  translate(-48.25px,-21.406px);;
                           }
                           to {
                             transform: translate(0, 0);
@@ -546,7 +604,7 @@
   /* 2nd N */
                     .animatedTitle .dot5 {
                       animation: dot5move 600ms ease-in-out;
-                      animation-delay: 2000ms;
+                      animation-delay: 18000ms;
                       animation-fill-mode: backwards;
                     }
 
@@ -562,14 +620,14 @@
 /* Top D */
                   .animatedTitle .dot6 {
                     animation: dot6move 600ms ease-in-out;
-                    animation-delay: 2000ms;
+                    animation-delay: 18000ms;
                     animation-fill-mode: backwards;
                   }
 
 
                       @keyframes dot6move {
                         from {
-                          transform: translate(-333.594px, -93.25px);
+                          transform: translate(-210px,-10px);
                         }
                         to {
                           transform: translate(0, 0);
@@ -578,14 +636,14 @@
 /* Bottom D */
                   .animatedTitle .dot7 {
                     animation: dot7move 600ms ease-in-out;
-                    animation-delay: 2000ms;
+                    animation-delay: 18000ms;
                     animation-fill-mode: backwards;
                   }
 
 
                       @keyframes dot7move {
                         from {
-                          transform: translate(16.406px, -43.25px);
+                          transform: translate(-190px, -95px);
                         }
                         to {
                           transform: translate(0, 0);
@@ -594,16 +652,26 @@
   /* Last A */
                     .animatedTitle .dot8 {
                       animation: dot8move 600ms ease-in-out;
-                      animation-delay: 2000ms;
+                      animation-delay: 18000ms;
                       animation-fill-mode: backwards;
                     }
 
 
                         @keyframes dot8move {
                           from {
-                            transform: translate(111.406px, -18.25px);
+                            transform: translate(-325px, -70px);
                           }
                           to {
                             transform: translate(0, 0);
                           }
                         }
+
+/*
+.dot1 {transform: translate(338.594px, -61.75px);}
+.dot2 {transform: translate(340.406px, -16.75px);}
+.dot3 {transform: translate(84.406px, -18.25px);}
+.dot4 {transform: translate(-48.25px,-21.406px);}
+.dot5 {transform: translate(-156.406px, -18.25px);}
+.dot6 {transform: translate(-212.594px, 84.75px);}
+.dot7 {transform: translate(-152.594px, -43.25px);}
+.dot8 {transform: translate(-280px, -18.25px);}*/
