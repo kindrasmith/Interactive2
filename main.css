@@ -473,7 +473,10 @@
                   }
                 }
 
+/* Alphabet Animation */
 
+
+/* top P */
         .animatedTitle .dot1 {
           animation: dot1move 600ms ease-in-out;
           animation-delay: 2000ms;
@@ -483,14 +486,14 @@
 
             @keyframes dot1move {
               from {
-                transform: translate(333.594px, -93.25px);
+                transform: translate(-188.594px, -61.75px);
               }
               to {
                 transform: translate(0, 0);
               }
             }
 
-
+/* Lower P */
                     .animatedTitle .dot2 {
                       animation: dot2move 600ms ease-in-out;
                       animation-delay: 2000ms;
@@ -498,17 +501,109 @@
                     }
 
 
-                        @keyframes dot2move {
+              @keyframes dot2move {
+                from {
+                  transform: translate(-331.406px, -16.75px);
+                }
+                to {
+                  transform: translate(0, 0);
+                }
+              }
+/* 1st A */
+              .animatedTitle .dot3 {
+                animation: dot3move 600ms ease-in-out;
+                animation-delay: 2000ms;
+                animation-fill-mode: backwards;
+              }
+
+
+                  @keyframes dot3move {
+                    from {
+                      transform: translate(-188.594px, -18.25px);
+                    }
+                    to {
+                      transform: translate(0, 0);
+                    }
+                  }
+
+
+  /* 1st N */
+                    .animatedTitle .dot4 {
+                      animation: dot4move 600ms ease-in-out;
+                      animation-delay: 2000ms;
+                      animation-fill-mode: backwards;
+                    }
+
+
+                        @keyframes dot4move {
                           from {
-                            transform: translate(250px, 0);
+                            transform: translate(-386.406px, -48.25px);
                           }
                           to {
                             transform: translate(0, 0);
                           }
                         }
+  /* 2nd N */
+                    .animatedTitle .dot5 {
+                      animation: dot5move 600ms ease-in-out;
+                      animation-delay: 2000ms;
+                      animation-fill-mode: backwards;
+                    }
 
 
+                        @keyframes dot5move {
+                          from {
+                            transform: translate(-156.406px, -18.25px);
+                          }
+                          to {
+                            transform: translate(0, 0);
+                          }
+                        }
+/* Top D */
+                  .animatedTitle .dot6 {
+                    animation: dot6move 600ms ease-in-out;
+                    animation-delay: 2000ms;
+                    animation-fill-mode: backwards;
+                  }
 
 
+                      @keyframes dot6move {
+                        from {
+                          transform: translate(-333.594px, -93.25px);
+                        }
+                        to {
+                          transform: translate(0, 0);
+                        }
+                      }
+/* Bottom D */
+                  .animatedTitle .dot7 {
+                    animation: dot7move 600ms ease-in-out;
+                    animation-delay: 2000ms;
+                    animation-fill-mode: backwards;
+                  }
 
-/* Alphabet Animation */
+
+                      @keyframes dot7move {
+                        from {
+                          transform: translate(16.406px, -43.25px);
+                        }
+                        to {
+                          transform: translate(0, 0);
+                        }
+                      }
+  /* Last A */
+                    .animatedTitle .dot8 {
+                      animation: dot8move 600ms ease-in-out;
+                      animation-delay: 2000ms;
+                      animation-fill-mode: backwards;
+                    }
+
+
+                        @keyframes dot8move {
+                          from {
+                            transform: translate(111.406px, -18.25px);
+                          }
+                          to {
+                            transform: translate(0, 0);
+                          }
+                        }
