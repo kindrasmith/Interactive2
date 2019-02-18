@@ -472,7 +472,7 @@
 /* P */
         .animatedTitle .hollowcircle {
           animation: fadeIn 800ms ease-in-out;
-          animation-delay: 30000ms;
+          animation-delay: 4500ms;
           opacity: 0;
           animation-fill-mode: forwards;
         }
@@ -487,7 +487,7 @@
                 }
                 .animatedTitle .halfcircle{
                   animation: fadeIn 800ms ease-in-out;
-                  animation-delay: 30000ms;
+                  animation-delay: 4500ms;
                   opacity: 0;
                   animation-fill-mode: forwards;
                 }
@@ -502,7 +502,7 @@
                         }
                 .animatedTitle .hleft{
                   animation: fadeIn 800ms ease-in-out;
-                  animation-delay: 30000ms;
+                  animation-delay: 4500ms;
                   opacity: 0;
                   animation-fill-mode: forwards;
                 }
@@ -517,7 +517,7 @@
                         }
                     .animatedTitle .hright{
                       animation: fadeIn 800ms ease-in-out;
-                      animation-delay: 30000ms;
+                      animation-delay: 4500ms;
                       opacity: 0;
                       animation-fill-mode: forwards;
                     }
@@ -537,7 +537,7 @@
 /* top P */
         .animatedTitle .dot1 {
           animation: dot1move 600ms ease-in-out;
-          animation-delay: 18000ms;
+          animation-delay: 3000ms;
             animation-fill-mode: backwards;
         }
 
@@ -554,7 +554,7 @@
 /* Lower P */
                     .animatedTitle .dot2 {
                       animation: dot2move 600ms ease-in-out;
-                      animation-delay: 18000ms;
+                      animation-delay: 3000ms;
                       animation-fill-mode: backwards;
                     }
 
@@ -570,7 +570,7 @@
 /* 1st A */
               .animatedTitle .dot3 {
                 animation: dot3move 600ms ease-in-out;
-                animation-delay: 18000ms;
+                animation-delay: 3000ms;
                 animation-fill-mode: backwards;
               }
 
@@ -588,14 +588,14 @@
   /* 1st N */
                     .animatedTitle .dot4 {
                       animation: dot4move 600ms ease-in-out;
-                      animation-delay: 18000ms;
+                      animation-delay: 3000ms;
                       animation-fill-mode: backwards;
                     }
 
 
                         @keyframes dot4move {
                           from {
-                            transform:  translate(-48.25px,-21.406px);;
+                            transform:  translate(15px,-25px);;
                           }
                           to {
                             transform: translate(0, 0);
@@ -604,14 +604,14 @@
   /* 2nd N */
                     .animatedTitle .dot5 {
                       animation: dot5move 600ms ease-in-out;
-                      animation-delay: 18000ms;
+                      animation-delay: 3000ms;
                       animation-fill-mode: backwards;
                     }
 
 
                         @keyframes dot5move {
                           from {
-                            transform: translate(-156.406px, -18.25px);
+                            transform: translate(-25px, -60px);
                           }
                           to {
                             transform: translate(0, 0);
@@ -620,7 +620,7 @@
 /* Top D */
                   .animatedTitle .dot6 {
                     animation: dot6move 600ms ease-in-out;
-                    animation-delay: 18000ms;
+                    animation-delay: 3000ms;
                     animation-fill-mode: backwards;
                   }
 
@@ -636,7 +636,7 @@
 /* Bottom D */
                   .animatedTitle .dot7 {
                     animation: dot7move 600ms ease-in-out;
-                    animation-delay: 18000ms;
+                    animation-delay: 3000ms;
                     animation-fill-mode: backwards;
                   }
 
@@ -652,14 +652,14 @@
   /* Last A */
                     .animatedTitle .dot8 {
                       animation: dot8move 600ms ease-in-out;
-                      animation-delay: 18000ms;
+                      animation-delay: 3000ms;
                       animation-fill-mode: backwards;
                     }
 
 
                         @keyframes dot8move {
                           from {
-                            transform: translate(-325px, -70px);
+                            transform: translate(-320px, -75px);
                           }
                           to {
                             transform: translate(0, 0);
