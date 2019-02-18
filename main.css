@@ -483,7 +483,7 @@
 
             @keyframes dot1move {
               from {
-                transform: translate(168.594px, -26.75px);
+                transform: translate(333.594px, -93.25px);
               }
               to {
                 transform: translate(0, 0);
