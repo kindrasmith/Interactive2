@@ -12,6 +12,7 @@
         width: 100vw;
         height: 100vh;
         overflow: auto;
+
       }
 
 
@@ -28,7 +29,7 @@
   overflow: auto;
 }
 .purple{
-  background-color: #cdb1c2;
+  background-color: #6e454a;
   width: 100vw;
   height: 100vh;
   overflow: auto;
@@ -1485,10 +1486,37 @@ animation: dot8move 600ms ease-in-out;
 
 #spinny {
 
-  transform-origin: 49% 2% ;
+  transform-origin: 45.5% 25% ;
 
 }
 .run #spinny {
+  animation: spins ease-in-out 1000ms;
+}
+
+#spinny2 {
+
+  transform-origin: 48.25% 24.75% ;
+
+}
+.run #spinny2 {
+  animation: spins ease-in-out 1000ms;
+}
+
+#spinny3 {
+
+  transform-origin: 53.25% 15.5% ;
+
+}
+.run #spinny3 {
+  animation: spins ease-in-out 1000ms;
+}
+
+#spinny4 {
+
+  transform-origin: 40% 48% ;
+
+}
+.run #spinny4 {
   animation: spins ease-in-out 1000ms;
 }
 
@@ -1570,7 +1598,8 @@ transition: all 400ms ease-out;
 .animatedTitle .dot42,
 .animatedTitle .dot43,
 .animatedTitle .hollowcircle,
-.animatedTitle .halfcircle
+.animatedTitle .halfcircle,
+.animatedTitle .blenddot
 {
 
 animation-play-state: paused;
@@ -1622,7 +1651,8 @@ animation-play-state: paused;
 .animatedTitle.run .dot42,
 .animatedTitle.run .dot43,
 .animatedTitle.run .hollowcircle,
-.animatedTitle.run .halfcircle
+.animatedTitle.run .halfcircle,
+.animatedTitle .blenddot
 {
 animation-play-state: running;
 }
