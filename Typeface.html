@@ -8,13 +8,7 @@
     <link rel="stylesheet" href="main.css" type="text/css" />
 
 
-<script>
 
-document.onclick = function(e){
-  console.log(e.target.getClientRects()[0])
-}
-
-</script>
 
 </head>
 
@@ -25,47 +19,14 @@ document.onclick = function(e){
 
 
 <body>
-<!-- dots -->
-<!-- <div class="first">
-  <div class="centerstuff">
-    <div style="width:4vw; height: 30vh;">
-    <div> -->
-
-          <!-- 8 -->
-                      <!-- <div class="number">
-                      <div class="circle bottom left"> </div>
-                      <div class="circle top left"> </div>
-                      <div class="circle bottom right"> </div>
-                      <div class="circle top right"> </div>
-                      <div class="circle sixbottom"> </div>
-                      <div class="circle sixtop"> </div>
-                      <div class="circle eightleft"> </div>
-                      <div class="circle eightright"> </div>
-
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-                      </div>
-
-
-
-
-
-
-
-
- -->
-
-
 
 <!-- panda after -->
 
       <div>
       </div>
-      <div class="first animatedTitle">
-        <div class="centerstuff pink">
-          <div style="width:50vw: height:50vh;">
+      <div id="clickToStart" class="first animatedTitle">
+        <div class="centerstuff black">
+          <div id="spinny" style="width:50vw: height:50vh;">
           <div>
 
       <!-- p -->
@@ -114,9 +75,9 @@ document.onclick = function(e){
 
       <div>
       </div>
-      <div class="first animatedTitle">
-        <div class="centerstuff third ">
-          <div style="width:50vw: height:50vh;">
+      <div id="clickToStart" class="first animatedTitle">
+        <div class="centerstuff black">
+          <div id="spinny" style="width:50vw: height:50vh;">
           <div>
 
             <!-- c -->
@@ -167,9 +128,9 @@ document.onclick = function(e){
 
       <div>
       </div>
-      <div class="first animatedTitle fourth">
-        <div class="centerstuff ">
-          <div style="width:100vw;: height:40vh;">
+      <div class=" orange animatedTitle ">
+        <div class="centerstuff black">
+          <div style="width:100vw; height:40vh;">
           <div>
   <div class="letter w">
   </div>
@@ -250,7 +211,7 @@ document.onclick = function(e){
 
 <!-- "boldness be my friend" -->
 <div class="first">
-  <div class="centerstuff animatedTitle orange">
+  <div class="centerstuff animatedTitle black">
     <div style="width:1400px">
     <div>
 <!-- boldness -->
@@ -447,7 +408,7 @@ document.onclick = function(e){
 
 
 
-<div class="centerstuff purple">
+<div class="centerstuff purple" id="rollOverLetters">
   <div style="width:85vw">
   <div><div class="letter c">
   </div>
@@ -702,7 +663,7 @@ document.onclick = function(e){
 
 
          <div class="first">
-           <div class="centerstuff orange">
+           <div class="centerstuff black">
              <div style="width:1450px; height: 250px;">
              <div>
                <!-- . -->
@@ -751,7 +712,7 @@ document.onclick = function(e){
 
 
  <div class="first">
-   <div class="centerstuff pink">
+   <div class="centerstuff black">
      <div style="width:1300px; height: 250px;">
      <div>
               <!-- 1 -->
@@ -853,5 +814,41 @@ document.onclick = function(e){
                      </div>
                      </div>
               </div>
+
+
+              <script>
+
+              document.onclick = function(e){
+                console.log(e.target.getClientRects()[0])
+              }
+
+              let titleCard = document.querySelector('#clickToStart')
+
+               titleCard.addEventListener('click',function(){
+                 titleCard.classList.add('run')
+
+               })
+
+
+
+               let rollOverLetters = document.querySelectorAll('#rollOverLetters .letter')
+
+               let colors = [ 'red', 'blue', '#333' ]
+
+
+               for(let counter = 0; counter < rollOverLetters.length; counter ++){
+                 rollOverLetters[counter].addEventListener('mouseenter',function(){
+
+
+                   let degree = Math.random() *180
+
+                  rollOverLetters[counter].style.filter = "sepia(40%) brightness(60%) saturate(25) hue-rotate("+degree+"deg)"
+                 })
+               }
+
+
+              </script>
+
+
 </body>
 </html>
