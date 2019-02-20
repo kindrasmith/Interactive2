@@ -1486,7 +1486,7 @@ animation: dot8move 600ms ease-in-out;
 
 #spinny {
 
-  transform-origin: 45.5% 25% ;
+  transform-origin: 48.5% 0% ;
 
 }
 .run #spinny {
@@ -1513,7 +1513,7 @@ animation: dot8move 600ms ease-in-out;
 
 #spinny4 {
 
-  transform-origin: 40% 48% ;
+  transform-origin: 50% 38% ;
 
 }
 .run #spinny4 {
