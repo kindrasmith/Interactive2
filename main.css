@@ -1486,7 +1486,7 @@ animation: dot8move 600ms ease-in-out;
 
 #spinny {
 
-  transform-origin: 48.5% 0% ;
+  transform-origin: 48.% 0% ;
 
 }
 .run #spinny {
@@ -1599,7 +1599,9 @@ transition: all 400ms ease-out;
 .animatedTitle .dot43,
 .animatedTitle .hollowcircle,
 .animatedTitle .halfcircle,
-.animatedTitle .blenddot
+.animatedTitle .blenddot,
+.animatedTitle .hright,
+.animatedTitle .hleft
 {
 
 animation-play-state: paused;
@@ -1652,7 +1654,10 @@ animation-play-state: paused;
 .animatedTitle.run .dot43,
 .animatedTitle.run .hollowcircle,
 .animatedTitle.run .halfcircle,
-.animatedTitle .blenddot
+.animatedTitle.run .blenddot,
+.animatedTitle.run .hright,
+.animatedTitle.run .hleft
+
 {
 animation-play-state: running;
 }
