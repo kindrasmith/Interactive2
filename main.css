@@ -9,13 +9,30 @@
       }
 
 
-.intro{
-  background-color: pink;
+.pink{
+  background-color: #d5857e;
   width: 100vw;
   height: 100vh;
   overflow: auto;
 }
-
+.orange{
+  background-color: #b35340;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+.third{
+  background-color: #2c4054;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+.purple{
+  background-color: #61383f;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
 
 
 
@@ -49,8 +66,7 @@
              width: 25px;
              box-sizing: content-box;
              height: 25px;
-             background: white;
-             border-color: black;
+             border-color: white;
              border-style: solid;
              border-width: 30px 30px 30px 30px;
              border-radius: 100%;
@@ -88,8 +104,8 @@
               width:30px;
               height:30px;
               border:30px solid transparent;
-              border-top-color:black;
-              border-right-color:black;
+              border-top-color:white;
+              border-right-color:white;
               transform:rotate(-135deg);
               border-radius:50%;
 
@@ -151,7 +167,7 @@
       height: 30px;
       border-radius: 100px;
       position: absolute;
-      background-color: black;
+      background-color: white;
     }
 
 
@@ -622,6 +638,7 @@
           animation-delay: 4500ms;
           opacity: 0;
           animation-fill-mode: forwards;
+
         }
 
                 @keyframes fadeIn {
@@ -692,7 +709,10 @@
                                         opacity: 1;
                                       }
                                     }
+.animatedTitle.run .dot1 {
 
+  animation: dot1move 600ms ease-in-out;
+}
 /* Alphabet Animation */
 
 
@@ -1396,6 +1416,57 @@
                                 transform: translate(0, 0);
                               }
                             }
+                            /* r */
+                                          .animatedTitle .dot41 {
+                                            animation: dot41move 600ms ease-in-out;
+                                            animation-delay: 3000ms;
+                                            animation-fill-mode: backwards;
+                                            transition-timing-function: ease-in;
+                                          }
+
+
+                                              @keyframes dot41move {
+                                                from {
+                                                  transform: translate(40px, -65px);
+                                                }
+                                                to {
+                                                  transform: translate(0, 0);
+                                                }
+                                              }
+                            /* n */
+                                        .animatedTitle .dot42 {
+                                          animation: dot42move 600ms ease-in-out;
+                                          animation-delay: 3000ms;
+                                          animation-fill-mode: backwards;
+                                          transition-timing-function: ease-in;
+                                        }
+
+
+                                            @keyframes dot42move {
+                                              from {
+                                                transform: translate(-140px, -100px);
+                                              }
+                                              to {
+                                                transform: translate(0, 0);
+                                              }
+                                            }
+                                            /* n */
+                                                        .animatedTitle .dot43 {
+                                                          animation: dot43move 600ms ease-in-out;
+                                                          animation-delay: 3000ms;
+                                                          animation-fill-mode: backwards;
+                                                          transition-timing-function: ease-in;
+                                                        }
+
+
+                                                            @keyframes dot43move {
+                                                              from {
+                                                                transform: translate(-60px, -65px);
+                                                              }
+                                                              to {
+                                                                transform: translate(0, 0);
+                                                              }
+                                                            }
 
 
 
