@@ -14,26 +14,21 @@
         overflow: auto;
       }
 
-.pink{
-  background-color: #b4e6ff;
-  width: 100vw;
-  height: 100vh;
-  overflow: auto;
-}
+
 .orange{
-  background-color: #fad1ff;
+  background-color: #aa5b55;
   width: 100vw;
   height: 100vh;
   overflow: auto;
 }
-.third{
-  background-color: #ffb68b;
+.blue{
+  background-color: #2f3c50;
   width: 100vw;
   height: 100vh;
   overflow: auto;
 }
 .purple{
-  background-color: black;
+  background-color: #cdb1c2;
   width: 100vw;
   height: 100vh;
   overflow: auto;
@@ -722,14 +717,10 @@
         .animatedTitle .dot1 {
           animation: dot1move 600ms ease-in-out;
           animation-delay: 3000ms;
-            animation-fill-mode: backwards;
+            animation-fill-mode: both;
             transition-timing-function: ease-in;
         }
-      }
-.animatedTitle.run .dot1 {
 
-animation: dot1move 600ms ease-in-out;
-}
 
             @keyframes dot1move {
               from {
@@ -744,14 +735,10 @@ animation: dot1move 600ms ease-in-out;
                     .animatedTitle .dot2 {
                       animation: dot2move 600ms ease-in-out;
                       animation-delay: 3000ms;
-                      animation-fill-mode: backwards;
+                      animation-fill-mode: both;
                       transition-timing-function: ease-in;
                     }
-                  }
-.animatedTitle.run .dot2 {
 
-animation: dot1move 600ms ease-in-out;
-}
 
               @keyframes dot2move {
                 from {
@@ -763,16 +750,13 @@ animation: dot1move 600ms ease-in-out;
               }
 /* 1st A */
               .animatedTitle .dot3 {
-animation: dot3move 600ms ease-in-out;
+                animation: dot3move 600ms ease-in-out;
                 animation-delay: 3000ms;
-                animation-fill-mode: backwards;
+                animation-fill-mode: both;
                 transition-timing-function: ease-in;
-              }
-            }
-.animatedTitle.run .dot3 {
 
-animation: dot1move 600ms ease-in-out;
-}
+            }
+
 
                   @keyframes dot3move {
                     from {
@@ -786,16 +770,12 @@ animation: dot1move 600ms ease-in-out;
 
   /* 1st N */
                     .animatedTitle .dot4 {
-animation: dot4move 600ms ease-in-out;
+                      animation: dot4move 600ms ease-in-out;
                       animation-delay: 3000ms;
-                      animation-fill-mode: backwards;
+                      animation-fill-mode: both;
                       transition-timing-function: ease-in;
                     }
-                  }
-.animatedTitle.run .dot4 {
 
-animation: dot1move 600ms ease-in-out;
-}
 
                         @keyframes dot4move {
                           from {
@@ -807,16 +787,12 @@ animation: dot1move 600ms ease-in-out;
                         }
   /* 2nd N */
                     .animatedTitle .dot5 {
-animation: dot5move 600ms ease-in-out;
+                      animation: dot5move 600ms ease-in-out;
                       animation-delay: 3000ms;
-                      animation-fill-mode: backwards;
+                      animation-fill-mode: both;
                       transition-timing-function: ease-in;
                     }
-                  }
-.animatedTitle.run .dot5 {
 
-animation: dot1move 600ms ease-in-out;
-}
 
                         @keyframes dot5move {
                           from {
@@ -828,16 +804,12 @@ animation: dot1move 600ms ease-in-out;
                         }
 /* Top D */
                   .animatedTitle .dot6 {
-animation: dot6move 600ms ease-in-out;
+                    animation: dot6move 600ms ease-in-out;
                     animation-delay: 3000ms;
-                    animation-fill-mode: backwards;
+                    animation-fill-mode: both;
                     transition-timing-function: ease-in;
                   }
-                }
-.animatedTitle.run .dot6 {
 
-animation: dot1move 600ms ease-in-out;
-}
 
                       @keyframes dot6move {
                         from {
@@ -851,14 +823,10 @@ animation: dot1move 600ms ease-in-out;
                   .animatedTitle .dot7 {
 animation: dot7move 600ms ease-in-out;
                     animation-delay: 3000ms;
-                    animation-fill-mode: backwards;
+                    animation-fill-mode: both;
                     transition-timing-function: ease-in;
                   }
-                }
-.animatedTitle.run .dot7 {
 
-animation: dot1move 600ms ease-in-out;
-}
 
                       @keyframes dot7move {
                         from {
@@ -872,14 +840,10 @@ animation: dot1move 600ms ease-in-out;
                     .animatedTitle .dot8 {
 animation: dot8move 600ms ease-in-out;
                       animation-delay: 3000ms;
-                      animation-fill-mode: backwards;
+                      animation-fill-mode: both;
                       transition-timing-function: ease-in;
                     }
-                  }
-.animatedTitle.run .dot8 {
 
-animation: dot1move 600ms ease-in-out;
-}
 
                         @keyframes dot8move {
                           from {
@@ -895,7 +859,7 @@ animation: dot1move 600ms ease-in-out;
                                 .animatedTitle .dot9 {
                                   animation: dot9move 600ms ease-in-out;
                                   animation-delay: 3000ms;
-                                    animation-fill-mode: backwards;
+                                    animation-fill-mode: both;
                                     transition-timing-function: ease-in;
                                 }
 
@@ -913,7 +877,7 @@ animation: dot1move 600ms ease-in-out;
                                             .animatedTitle .dot10 {
                                               animation: dot10move 600ms ease-in-out;
                                               animation-delay: 3000ms;
-                                              animation-fill-mode: backwards;
+                                              animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
 
@@ -930,7 +894,7 @@ animation: dot1move 600ms ease-in-out;
                                       .animatedTitle .dot11 {
                                         animation: dot11move 600ms ease-in-out;
                                         animation-delay: 3000ms;
-                                        animation-fill-mode: backwards;
+                                        animation-fill-mode: both;
                                         transition-timing-function: ease-in;
                                       }
 
@@ -949,7 +913,7 @@ animation: dot1move 600ms ease-in-out;
                                             .animatedTitle .dot12 {
                                               animation: dot12move 600ms ease-in-out;
                                               animation-delay: 3000ms;
-                                              animation-fill-mode: backwards;
+                                              animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
 
@@ -966,7 +930,7 @@ animation: dot1move 600ms ease-in-out;
                                             .animatedTitle .dot13 {
                                               animation: dot13move 600ms ease-in-out;
                                               animation-delay: 3000ms;
-                                              animation-fill-mode: backwards;
+                                              animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
 
@@ -983,7 +947,7 @@ animation: dot1move 600ms ease-in-out;
                                           .animatedTitle .dot14 {
                                             animation: dot14move 600ms ease-in-out;
                                             animation-delay: 3000ms;
-                                            animation-fill-mode: backwards;
+                                            animation-fill-mode: both;
                                             transition-timing-function: ease-in;
                                           }
 
@@ -1002,7 +966,7 @@ animation: dot1move 600ms ease-in-out;
                                     .animatedTitle .dot15 {
                                       animation: dot15move 600ms ease-in-out;
                                       animation-delay: 3000ms;
-                                        animation-fill-mode: backwards;
+                                        animation-fill-mode: both;
                                         transition-timing-function: ease-in;
                                     }
 
@@ -1020,7 +984,7 @@ animation: dot1move 600ms ease-in-out;
                                                 .animatedTitle .dot16 {
                                                   animation: dot16move 600ms ease-in-out;
                                                   animation-delay: 3000ms;
-                                                  animation-fill-mode: backwards;
+                                                  animation-fill-mode: both;
                                                   transition-timing-function: ease-in;
                                                 }
 
@@ -1037,7 +1001,7 @@ animation: dot1move 600ms ease-in-out;
                                           .animatedTitle .dot17 {
                                             animation: dot17move 600ms ease-in-out;
                                             animation-delay: 3000ms;
-                                            animation-fill-mode: backwards;
+                                            animation-fill-mode: both;
                                             transition-timing-function: ease-in;
                                           }
 
@@ -1056,7 +1020,7 @@ animation: dot1move 600ms ease-in-out;
                                                 .animatedTitle .dot18 {
                                                   animation: dot18move 600ms ease-in-out;
                                                   animation-delay: 3000ms;
-                                                  animation-fill-mode: backwards;
+                                                  animation-fill-mode: both;
                                                   transition-timing-function: ease-in;
                                                 }
 
@@ -1073,7 +1037,7 @@ animation: dot1move 600ms ease-in-out;
                                                 .animatedTitle .dot19 {
                                                   animation: dot19move 600ms ease-in-out;
                                                   animation-delay: 3000ms;
-                                                  animation-fill-mode: backwards;
+                                                  animation-fill-mode: both;
                                                   transition-timing-function: ease-in;
                                                 }
 
@@ -1090,7 +1054,7 @@ animation: dot1move 600ms ease-in-out;
                                               .animatedTitle .dot20 {
                                                 animation: dot20move 600ms ease-in-out;
                                                 animation-delay: 3000ms;
-                                                animation-fill-mode: backwards;
+                                                animation-fill-mode: both;
                                                 transition-timing-function: ease-in;
                                               }
 
@@ -1107,7 +1071,7 @@ animation: dot1move 600ms ease-in-out;
                                             .animatedTitle .dot21 {
                                               animation: dot21move 600ms ease-in-out;
                                               animation-delay: 3000ms;
-                                              animation-fill-mode: backwards;
+                                              animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
 
@@ -1124,7 +1088,7 @@ animation: dot1move 600ms ease-in-out;
                                             .animatedTitle .dot22 {
                                               animation: dot22move 600ms ease-in-out;
                                               animation-delay: 3000ms;
-                                              animation-fill-mode: backwards;
+                                              animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
 
@@ -1141,7 +1105,7 @@ animation: dot1move 600ms ease-in-out;
                                         .animatedTitle .dot23 {
                                           animation: dot23move 600ms ease-in-out;
                                           animation-delay: 3000ms;
-                                          animation-fill-mode: backwards;
+                                          animation-fill-mode: both;
                                           transition-timing-function: ease-in;
                                         }
 
@@ -1158,7 +1122,7 @@ animation: dot1move 600ms ease-in-out;
                                       .animatedTitle .dot24 {
                                         animation: dot24move 600ms ease-in-out;
                                         animation-delay: 3000ms;
-                                        animation-fill-mode: backwards;
+                                        animation-fill-mode: both;
                                         transition-timing-function: ease-in;
                                       }
 
@@ -1175,7 +1139,7 @@ animation: dot1move 600ms ease-in-out;
                                   .animatedTitle .dot25 {
                                     animation: dot25move 600ms ease-in-out;
                                     animation-delay: 3000ms;
-                                    animation-fill-mode: backwards;
+                                    animation-fill-mode: both;
                                     transition-timing-function: ease-in;
                                   }
 
@@ -1190,9 +1154,9 @@ animation: dot1move 600ms ease-in-out;
                                       }
                   /* right s2 bottom */
                                 .animatedTitle .dot26 {
-                                  animation: dot26move 600ms ease-in-out;
+                                  /* animation: dot26move 600ms ease-in-out; */
                                   animation-delay: 3000ms;
-                                  animation-fill-mode: backwards;
+                                  animation-fill-mode: both;
                                   transition-timing-function: ease-in;
                                 }
         .animatedTitle.run .dot26 {
@@ -1214,7 +1178,7 @@ animation: dot1move 600ms ease-in-out;
                                 .animatedTitle .dot27 {
                                   animation: dot27move 600ms ease-in-out;
                                   animation-delay: 3000ms;
-                                    animation-fill-mode: backwards;
+                                    animation-fill-mode: both;
                                     transition-timing-function: ease-in;
                                 }
 
@@ -1232,7 +1196,7 @@ animation: dot1move 600ms ease-in-out;
                                             .animatedTitle .dot28 {
                                               animation: dot28move 600ms ease-in-out;
                                               animation-delay: 3000ms;
-                                              animation-fill-mode: backwards;
+                                              animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
 
@@ -1249,7 +1213,7 @@ animation: dot1move 600ms ease-in-out;
                                       .animatedTitle .dot29 {
                                         animation: dot29move 600ms ease-in-out;
                                         animation-delay: 3000ms;
-                                        animation-fill-mode: backwards;
+                                        animation-fill-mode: both;
                                         transition-timing-function: ease-in;
                                       }
 
@@ -1268,7 +1232,7 @@ animation: dot1move 600ms ease-in-out;
                                             .animatedTitle .dot30 {
                                               animation: dot30move 600ms ease-in-out;
                                               animation-delay: 3000ms;
-                                              animation-fill-mode: backwards;
+                                              animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
 
@@ -1285,7 +1249,7 @@ animation: dot1move 600ms ease-in-out;
                                             .animatedTitle .dot31 {
                                               animation: dot31move 600ms ease-in-out;
                                               animation-delay: 3000ms;
-                                              animation-fill-mode: backwards;
+                                              animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
 
@@ -1302,7 +1266,7 @@ animation: dot1move 600ms ease-in-out;
                                           .animatedTitle .dot32 {
                                             animation: dot32move 600ms ease-in-out;
                                             animation-delay: 3000ms;
-                                            animation-fill-mode: backwards;
+                                            animation-fill-mode: both;
                                             transition-timing-function: ease-in;
                                           }
 
@@ -1319,7 +1283,7 @@ animation: dot1move 600ms ease-in-out;
                                         .animatedTitle .dot33 {
                                           animation: dot33move 600ms ease-in-out;
                                           animation-delay: 3000ms;
-                                          animation-fill-mode: backwards;
+                                          animation-fill-mode: both;
                                           transition-timing-function: ease-in;
                                         }
 
@@ -1336,7 +1300,7 @@ animation: dot1move 600ms ease-in-out;
                                         .animatedTitle .dot34 {
                                           animation: dot34move 600ms ease-in-out;
                                           animation-delay: 3000ms;
-                                          animation-fill-mode: backwards;
+                                          animation-fill-mode: both;
                                           transition-timing-function: ease-in;
                                         }
 
@@ -1353,7 +1317,7 @@ animation: dot1move 600ms ease-in-out;
                                     .animatedTitle .dot35 {
                                       animation: dot35move 600ms ease-in-out;
                                       animation-delay: 3000ms;
-                                      animation-fill-mode: backwards;
+                                      animation-fill-mode: both;
                                       transition-timing-function: ease-in;
                                     }
 
@@ -1370,7 +1334,7 @@ animation: dot1move 600ms ease-in-out;
                                   .animatedTitle .dot36 {
                                     animation: dot36move 600ms ease-in-out;
                                     animation-delay: 3000ms;
-                                    animation-fill-mode: backwards;
+                                    animation-fill-mode: both;
                                     transition-timing-function: ease-in;
                                   }
 
@@ -1387,7 +1351,7 @@ animation: dot1move 600ms ease-in-out;
                               .animatedTitle .dot37 {
                                 animation: dot37move 600ms ease-in-out;
                                 animation-delay: 3000ms;
-                                animation-fill-mode: backwards;
+                                animation-fill-mode: both;
                                 transition-timing-function: ease-in;
                               }
 
@@ -1404,7 +1368,7 @@ animation: dot1move 600ms ease-in-out;
                             .animatedTitle .dot38 {
                               animation: dot38move 600ms ease-in-out;
                               animation-delay: 3000ms;
-                              animation-fill-mode: backwards;
+                              animation-fill-mode: both;
                               transition-timing-function: ease-in;
                             }
 
@@ -1423,7 +1387,7 @@ animation: dot1move 600ms ease-in-out;
                           .animatedTitle .dot39 {
                             animation: dot39move 600ms ease-in-out;
                             animation-delay: 3000ms;
-                            animation-fill-mode: backwards;
+                            animation-fill-mode: both;
                             transition-timing-function: ease-in;
                           }
 
@@ -1440,7 +1404,7 @@ animation: dot1move 600ms ease-in-out;
                         .animatedTitle .dot40 {
                           animation: dot40move 600ms ease-in-out;
                           animation-delay: 3000ms;
-                          animation-fill-mode: backwards;
+                          animation-fill-mode: both;
                           transition-timing-function: ease-in;
                         }
 
@@ -1457,7 +1421,7 @@ animation: dot1move 600ms ease-in-out;
                                           .animatedTitle .dot41 {
                                             animation: dot41move 600ms ease-in-out;
                                             animation-delay: 3000ms;
-                                            animation-fill-mode: backwards;
+                                            animation-fill-mode: both;
                                             transition-timing-function: ease-in;
                                           }
 
@@ -1474,7 +1438,7 @@ animation: dot1move 600ms ease-in-out;
                                         .animatedTitle .dot42 {
                                           animation: dot42move 600ms ease-in-out;
                                           animation-delay: 3000ms;
-                                          animation-fill-mode: backwards;
+                                          animation-fill-mode: both;
                                           transition-timing-function: ease-in;
                                         }
 
@@ -1491,7 +1455,7 @@ animation: dot1move 600ms ease-in-out;
                                                         .animatedTitle .dot43 {
                                                           animation: dot43move 600ms ease-in-out;
                                                           animation-delay: 3000ms;
-                                                          animation-fill-mode: backwards;
+                                                          animation-fill-mode: both;
                                                           transition-timing-function: ease-in;
                                                         }
 
@@ -1521,7 +1485,7 @@ animation: dot1move 600ms ease-in-out;
 
 #spinny {
 
-  transform-origin: 48.7% 24.5%;
+  transform-origin: 49% 2% ;
 
 }
 .run #spinny {
@@ -1556,3 +1520,109 @@ transition: all 400ms ease-out;
   border-top-color:red;
   border-right-color:red;
 } */
+
+
+
+
+
+#clickToStart
+.animatedTitle .dot1,
+.animatedTitle .dot2,
+.animatedTitle .dot3,
+.animatedTitle .dot4,
+.animatedTitle .dot5,
+.animatedTitle .dot6,
+.animatedTitle .dot7,
+.animatedTitle .dot8,
+.animatedTitle .dot9,
+.animatedTitle .dot10,
+.animatedTitle .dot11,
+.animatedTitle .dot12,
+.animatedTitle .dot13,
+.animatedTitle .dot14,
+.animatedTitle .dot15,
+.animatedTitle .dot16,
+.animatedTitle .dot17,
+.animatedTitle .dot18,
+.animatedTitle .dot19,
+.animatedTitle .dot20,
+.animatedTitle .dot21,
+.animatedTitle .dot22,
+.animatedTitle .dot23,
+.animatedTitle .dot24,
+.animatedTitle .dot25,
+.animatedTitle .dot26,
+.animatedTitle .dot27,
+.animatedTitle .dot28,
+.animatedTitle .dot29,
+.animatedTitle .dot30,
+.animatedTitle .dot31,
+.animatedTitle .dot32,
+.animatedTitle .dot33,
+.animatedTitle .dot34,
+.animatedTitle .dot35,
+.animatedTitle .dot36,
+.animatedTitle .dot37,
+.animatedTitle .dot38,
+.animatedTitle .dot39,
+.animatedTitle .dot40,
+.animatedTitle .dot41,
+.animatedTitle .dot42,
+.animatedTitle .dot43,
+.animatedTitle .hollowcircle,
+.animatedTitle .halfcircle
+{
+
+animation-play-state: paused;
+}
+
+
+
+.animatedTitle.run .dot1,
+.animatedTitle.run .dot2,
+.animatedTitle.run .dot3,
+.animatedTitle.run .dot4,
+.animatedTitle.run .dot5,
+.animatedTitle.run .dot6,
+.animatedTitle.run .dot7,
+.animatedTitle.run .dot8,
+.animatedTitle.run .dot9,
+.animatedTitle.run .dot10,
+.animatedTitle.run .dot11,
+.animatedTitle.run .dot12,
+.animatedTitle.run .dot13,
+.animatedTitle.run .dot14,
+.animatedTitle.run .dot15,
+.animatedTitle.run .dot16,
+.animatedTitle.run .dot17,
+.animatedTitle.run .dot18,
+.animatedTitle.run .dot19,
+.animatedTitle.run .dot20,
+.animatedTitle.run .dot21,
+.animatedTitle.run .dot22,
+.animatedTitle.run .dot23,
+.animatedTitle.run .dot24,
+.animatedTitle.run .dot25,
+.animatedTitle.run .dot26,
+.animatedTitle.run .dot27,
+.animatedTitle.run .dot28,
+.animatedTitle.run .dot29,
+.animatedTitle.run .dot30,
+.animatedTitle.run .dot31,
+.animatedTitle.run .dot32,
+.animatedTitle.run .dot33,
+.animatedTitle.run .dot34,
+.animatedTitle.run .dot35,
+.animatedTitle.run .dot36,
+.animatedTitle.run .dot37,
+.animatedTitle.run .dot38,
+.animatedTitle.run .dot39,
+.animatedTitle.run .dot40,
+.animatedTitle.run .dot41,
+.animatedTitle.run .dot42,
+.animatedTitle.run .dot43,
+.animatedTitle.run .hollowcircle,
+.animatedTitle.run .halfcircle
+{
+animation-play-state: running;
+}

@@ -28,7 +28,7 @@
         <div class="centerstuff black">
           <div id="spinny" style="width:50vw: height:50vh;">
           <div>
-
+      <div id="spinny" style="width:50vw: height:50vh;">
       <!-- p -->
                   <div class="letter low">
                     <div class="hollowcircle top right"> </div>
@@ -47,8 +47,9 @@
                               <div class="circle hleft" > </div>
                               <div class="circle hright" > </div>
 
+    <div class="circle mlleft dot4" > </div>
                               <div class="circle nright dot5" > </div>
-                              <div class="circle mlleft dot4" > </div>
+
                               </div>
                               <!-- d  -->
                                       <div class="letter">
@@ -75,8 +76,9 @@
 
       <div>
       </div>
-      <div id="clickToStart" class="first animatedTitle">
-        <div class="centerstuff black">
+    </div>
+      <div id="clickToStart2" class="first animatedTitle">
+        <div class="centerstuff blue">
           <div id="spinny" style="width:50vw: height:50vh;">
           <div>
 
@@ -128,9 +130,9 @@
 
       <div>
       </div>
-      <div class=" orange animatedTitle ">
-        <div class="centerstuff black">
-          <div style="width:100vw; height:40vh;">
+      <div id="clickToStart3" class="orange animatedTitle ">
+        <div class="centerstuff ">
+          <div id="spinny"  style="width:100vw; height:40vh;">
           <div>
   <div class="letter w">
   </div>
@@ -211,8 +213,8 @@
 
 <!-- "boldness be my friend" -->
 <div class="first">
-  <div class="centerstuff animatedTitle black">
-    <div style="width:1400px">
+  <div id="clickToStart4" class="centerstuff animatedTitle purple">
+    <div id="spinny" style="width:1400px">
     <div>
 <!-- boldness -->
   <div class="letter"></div>
@@ -408,7 +410,7 @@
 
 
 
-<div class="centerstuff purple" id="rollOverLetters">
+<div class="centerstuff black" id="rollOverLetters">
   <div style="width:85vw">
   <div><div class="letter c">
   </div>
@@ -663,7 +665,7 @@
 
 
          <div class="first">
-           <div class="centerstuff black">
+           <div class="centerstuff blue">
              <div style="width:1450px; height: 250px;">
              <div>
                <!-- . -->
@@ -712,7 +714,7 @@
 
 
  <div class="first">
-   <div class="centerstuff black">
+   <div class="centerstuff orange">
      <div style="width:1300px; height: 250px;">
      <div>
               <!-- 1 -->
@@ -831,6 +833,42 @@
 
 
 
+
+               let titleCard2 = document.querySelector('#clickToStart2')
+
+                titleCard2.addEventListener('click',function(){
+                  titleCard2.classList.add('run')
+
+                })
+
+
+                               let titleCard3 = document.querySelector('#clickToStart3')
+
+                                titleCard3.addEventListener('click',function(){
+                                  titleCard3.classList.add('run')
+
+                                })
+
+
+
+                                               let titleCard4 = document.querySelector('#clickToStart4')
+
+                                                titleCard4.addEventListener('click',function(){
+                                                  titleCard4.classList.add('run')
+
+                                                })
+
+
+
+                                                               // let titleCard5 = document.querySelector('#clickToStart5')
+                                                               //
+                                                               //  titleCard5.addEventListener('click',function(){
+                                                               //    titleCard5.classList.add('run')
+                                                               //
+                                                               //  })
+
+
+
                let rollOverLetters = document.querySelectorAll('#rollOverLetters .letter')
 
                let colors = [ 'red', 'blue', '#333' ]
@@ -840,9 +878,9 @@
                  rollOverLetters[counter].addEventListener('mouseenter',function(){
 
 
-                   let degree = Math.random() *180
+                   let degree = Math.random() *360
 
-                  rollOverLetters[counter].style.filter = "sepia(40%) brightness(60%) saturate(25) hue-rotate("+degree+"deg)"
+                  rollOverLetters[counter].style.filter = "sepia(30%) brightness(20%) saturate(25) hue-rotate("+degree+"deg)"
                  })
                }
 
