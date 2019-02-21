@@ -1581,6 +1581,7 @@ animation: dot8move 600ms ease-in-out;
   animation: spins ease-in-out 1000ms;
 }
 
+
 @keyframes spins {
   from {
     transform: rotate(0);
@@ -1590,6 +1591,48 @@ animation: dot8move 600ms ease-in-out;
   }
 }
 
+.rotatetime{
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+transform-origin: 35% 23%;
+}
+.rotatetime:hover {
+
+  -webkit-transform: rotate(359deg); /* Safari */
+  transform: rotate(359deg);
+}
+.rotatetime2{
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+transform-origin: 60% 50%;
+}
+.rotatetime2:hover {
+
+  -webkit-transform: rotate(359deg); /* Safari */
+  transform: rotate(359deg);
+}
+
+.rotatetime3{
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+transform-origin: 50% 63%;
+}
+.rotatetime3:hover {
+
+  -webkit-transform: rotate(359deg); /* Safari */
+  transform: rotate(359deg);
+}
+
+.rotatetime4{
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+transform-origin: 50% 63%;
+}
+.rotatetime4:hover {
+
+  -webkit-transform: rotate(359deg); /* Safari */
+  transform: rotate(359deg);
+}
 
 /*
 #rollOverLetters .hollowcircle {
