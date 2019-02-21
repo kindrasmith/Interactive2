@@ -1591,6 +1591,20 @@ animation: dot8move 600ms ease-in-out;
   }
 }
 
+
+.transparency{
+  opacity: 1;
+
+  transition: 0.3s;
+}
+.transparency:hover {
+
+  opacity: 0.3;
+
+  animation: ease-in-out 1000ms;
+}
+
+
 .rotatetime{
   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
 transition: width 2s, height 2s, transform 2s;
@@ -1626,12 +1640,60 @@ transform-origin: 50% 63%;
 .rotatetime4{
   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
 transition: width 2s, height 2s, transform 2s;
-transform-origin: 50% 63%;
+transform-origin: 48.25% 81.25%;
 }
 .rotatetime4:hover {
 
   -webkit-transform: rotate(359deg); /* Safari */
   transform: rotate(359deg);
+
+}
+
+.rotatetime5{
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+transform-origin: 50% 50%;
+}
+.rotatetime5:hover {
+
+  -webkit-transform: rotate(359deg); /* Safari */
+  transform: rotate(359deg);
+
+}
+
+.rotatetime6{
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+transform-origin: 50% 55%;
+}
+.rotatetime6:hover {
+
+  -webkit-transform: rotate(359deg); /* Safari */
+  transform: rotate(359deg);
+
+}
+.rotatetime7{
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+transform-origin: 50% 50%;
+}
+.rotatetime7:hover {
+
+  -webkit-transform: rotate(359deg); /* Safari */
+  transform: rotate(359deg);
+
+}
+
+.rotatetime8{
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+transition: width 2s, height 2s, transform 2s;
+transform-origin: 40% 40%;
+}
+.rotatetime8:hover {
+
+  -webkit-transform: rotate(359deg); /* Safari */
+  transform: rotate(359deg);
+
 }
 
 /*
