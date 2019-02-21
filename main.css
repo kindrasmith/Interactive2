@@ -1608,10 +1608,10 @@ animation: dot8move 600ms ease-in-out;
 .rotatetime{
   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
 transition: width 2s, height 2s, transform 2s;
-transform-origin: 35% 23%;
+transform-origin: 45% 59%;
 }
 .rotatetime:hover {
-
+animation: ease-in-out 1000ms;
   -webkit-transform: rotate(359deg); /* Safari */
   transform: rotate(359deg);
 }
@@ -1640,7 +1640,7 @@ transform-origin: 50% 63%;
 .rotatetime4{
   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
 transition: width 2s, height 2s, transform 2s;
-transform-origin: 48.25% 81.25%;
+transform-origin: 48.75% 80.25%;
 }
 .rotatetime4:hover {
 
@@ -1687,7 +1687,7 @@ transform-origin: 50% 50%;
 .rotatetime8{
   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
 transition: width 2s, height 2s, transform 2s;
-transform-origin: 40% 40%;
+transform-origin: 91% 91%;
 }
 .rotatetime8:hover {
 
