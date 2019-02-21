@@ -1687,7 +1687,7 @@ transform-origin: 50% 50%;
 .rotatetime8{
   -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
 transition: width 2s, height 2s, transform 2s;
-transform-origin: 91% 91%;
+transform-origin: 85% 95%;
 }
 .rotatetime8:hover {
 
