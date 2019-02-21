@@ -137,8 +137,8 @@
       <div>
       </div>
       <div id="clickToStart3" class="orange animatedTitle ">
-        <div class="centerstuff ">
-          <div id="spinny3"  style="width:100vw; height:40vh;">
+        <div class="centerstuff">
+          <div id="spinny3"  style="width:108vw; height:25vh;">
           <div>
   <div class="letter w">
   </div>
@@ -318,7 +318,7 @@
 
                         <div class="circle emiddle dot38" > </div>
                       </div>
-                      <div class="letter w">
+                      <div class="letter ">
                       </div>
   <!-- m -->
               <div class="letter w">
@@ -551,7 +551,7 @@
                               <div class="letter low">
                                   <div class="hollowcircle top "> </div>
                                   <div class="circle gmiddle" > </div>
-                                  <div class="hollowcircle quartercircle upll bottom left" > </div>
+                                  <div class="hollowcircle quartercircle upllll bottom left" > </div>
                                   <div class="circle qbottom" > </div>
                                   <div class="circle qtop" > </div>
                               </div>
@@ -564,7 +564,7 @@
 
                                 <div class="circle mlleft" > </div>
                               </div>
-
+  <div class="letter c"></div>
                   <!-- s -->
                                   <div class="letter w">
                                     <!-- top -->
@@ -671,16 +671,16 @@
 
 
          <div class="first">
-           <div class="centerstuff blue">
-             <div style="width:1450px; height: 250px;">
+           <div class="centerstuff blue " >
+             <div style="width:1150px; height: 250px;">
              <div>
                <!-- . -->
                      <div class="number one">
                      <div class="circle"> </div>
                      </div>
                <!-- , -->
-                     <div class="number flip">
-                       <div class="hollowcircle quartercircle upl bottom left" > </div>
+                     <div class="number comma">
+                       <div class="hollowcircle quartercircle uplll bottom left" > </div>
                        <div class="circle commaone" > </div>
                        <div class="circle commatwo" > </div>
                      </div>
@@ -692,24 +692,37 @@
                 <div class="circle bottom questiondot"> </div>
                   <div class="circle questiondott" > </div>
                 </div>
+
+
               <!-- ! -->
-                <div class="letter  flipy">
+                <div class="letter w flipy">
                     <div class="halfcircle bottom side left"> </div>
                     <div class="circle ctop" > </div>
                     <div class="circle cbottom" > </div>
                       <div class="circle itopp" > </div>
                 </div>
-                <!-- '>' -->
-                <div class="letter small">
-                <div class="circle idot top" > </div>
-                <div class="hollowcircle quartercircle upl " > </div>
-                <div class="circle tright" > </div>
-                    <div class="movetoright">
-                <div class="circle idot top" > </div>
-                  <div class="circle tright" > </div>
-                <div class="hollowcircle quartercircle upl " > </div>
 
-              </div></div>
+                <!-- '' -->
+                <div class="letter quote">
+                <div class="circle idot top" > </div>
+                <div class="hollowcircle quartercircle upl " > </div>
+                <div class="circle tright"> </div>
+                <div class="movetoright"> </div>
+                <div class="circle trighttt top" > </div>
+                <div class="circle trightt" > </div>
+                <div class="hollowcircle quartercircle upll" > </div>
+
+              </div>
+              <!-- '' -->
+              <div class="letter c quote quotes">
+              <div class="circle idot top" > </div>
+              <div class="hollowcircle quartercircle upl " > </div>
+              <div class="circle tright"> </div>
+              <div class="movetoright"> </div>
+              <div class="circle trighttt top" > </div>
+              <div class="circle trightt" > </div>
+              <div class="hollowcircle quartercircle upll" > </div>
+</div>
 
                      </div>
                      </div>
@@ -875,23 +888,23 @@
 
 
 
-               let rollOverLetters = document.querySelectorAll('#rollOverLetters .letter')
+let rollOverLetters = document.querySelectorAll('#rollOverLetters .letter')
 
-               let colors = [ 'red', 'blue', '#333' ]
-
-
-               for(let counter = 0; counter < rollOverLetters.length; counter ++){
-                 rollOverLetters[counter].addEventListener('mouseenter',function(){
+let colors = [ 'red', 'blue', '#333' ]
 
 
-                   let degree = Math.random() *360
-
-                  rollOverLetters[counter].style.filter = "sepia(30%) brightness(20%) saturate(25) hue-rotate("+degree+"deg)"
-                 })
-               }
+for(let counter = 0; counter < rollOverLetters.length; counter ++){
+ rollOverLetters[counter].addEventListener('mouseenter',function(){
 
 
-              </script>
+   let degree = Math.random() *360
+
+  rollOverLetters[counter].style.filter = "sepia(30%) brightness(22%) saturate(25) hue-rotate("+degree+"deg)"
+ })
+}
+
+
+</script>
 
 
 </body>

@@ -30,7 +30,7 @@
         width: 100vw;
         height: 100vh;
         overflow: auto;
- scroll-snap-align: start;
+        scroll-snap-align: start;
       }
 
 
@@ -76,13 +76,13 @@
 
 
 
-.low {
-  top: 65px;
-}
+                      .low {
+                        top: 65px;
+                      }
 
-.hlow {
-  top: 30px;
-}
+                      .hlow {
+                        top: 30px;
+                      }
 
     .hollowcircle{
              width: 25px;
@@ -116,7 +116,16 @@
               .upll{
                 transform: rotate(-90deg);
                 margin-top: -35px;
+                margin-left: -70px;
+              }
+              .upllll{
+                transform: rotate(-90deg);
+                margin-top: -35px;
                 margin-left: 30px;
+              }
+              .uplll{
+                transform: rotate(-180deg);
+                margin-top: -35px;
               }
 
 
@@ -191,8 +200,6 @@
       position: absolute;
       background-color: white;
     }
-
-
     .number {
       position:relative;
       height:70px;
@@ -205,7 +212,9 @@
 
 
 
-
+.number.comma{
+  margin-top: 110px;
+}
 
     .number.one{
       margin-right: 30px;
@@ -215,6 +224,7 @@
       margin-right: 30px;
       margin-top: 100px;
     }
+
     .number.three{
 
       margin-top: 100px;
@@ -244,10 +254,6 @@
 
 
 
-
-
-
-
     .letter {
       position:relative;
       height:150px;
@@ -256,7 +262,7 @@
       margin-right: 50px;
       margin-bottom: 100px;
     }
-              .letter.t {
+            .letter.t {
                 width:140px;
                 margin-right: -10px;
               }
@@ -301,8 +307,18 @@
 
             }
 
-
-
+.letter.quote{
+  margin-left: 80px;
+  margin-right: 0px;
+}
+.letter.quotes{
+-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
 
 
 
@@ -453,6 +469,14 @@
                   }
                   .tright {
                     left: 25px;
+                    top: 25px;
+                  }
+                  .trightt {
+                    left: -45px;
+                    top: 25px;
+                  }
+                  .trighttt {
+                    left: -70px;
                     top: 25px;
                   }
                   .tside {
@@ -623,11 +647,11 @@
                   }
 /* .,?!""  */
                   .commaone {
-                    left: 25px;
+                    left: 35px;
                     top: 40px;
                   }
                   .commatwo {
-                    left: 0px;
+                    left: 60px;
                     top: 15px;
                   }
                   .questionmark {
@@ -1193,14 +1217,12 @@ animation: dot8move 600ms ease-in-out;
                                       }
                   /* right s2 bottom */
                                 .animatedTitle .dot26 {
-                                  /* animation: dot26move 600ms ease-in-out; */
+                                    animation: dot26move 600ms ease-in-out;
                                   animation-delay: 1500ms;
                                   animation-fill-mode: both;
                                   transition-timing-function: ease-in;
                                 }
-        .animatedTitle.run .dot26 {
-          animation: dot26move 600ms ease-in-out;
-        }
+
 
 
                                     @keyframes dot26move {
@@ -1524,7 +1546,8 @@ animation: dot8move 600ms ease-in-out;
 
 #spinny {
 
-  transform-origin: 48.5% 0% ;
+  transform-origin: 47.5% 1% ;
+
 
 }
 .run #spinny {
@@ -1542,7 +1565,7 @@ animation: dot8move 600ms ease-in-out;
 
 #spinny3 {
 
-  transform-origin: 53.25% 15.5% ;
+  transform-origin: 49.5% 25% ;
 
 }
 .run #spinny3 {
