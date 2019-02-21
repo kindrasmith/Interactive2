@@ -1,18 +1,36 @@
 *
  {
    padding:0px;
-   margin: 0px;}
+   margin: 0px;
+
+}
 
   body{ background-color: black;
         height:100vh;
         width:100vw;
+        scroll-snap-type: mandatory;
+        scroll-snap-points-y: repeat(100vh);
+        scroll-snap-type: y mandatory;
+
       }
+
+      section {
+          border-bottom: 1px solid black;
+          padding: 0rem;
+          height: 100vh;
+          scroll-snap-align: start;
+          text-align: center;
+          position: relative;
+      }
+
+
+
       .black{
         background-color: black;
         width: 100vw;
         height: 100vh;
         overflow: auto;
-
+ scroll-snap-align: start;
       }
 
 
@@ -21,18 +39,21 @@
   width: 100vw;
   height: 100vh;
   overflow: auto;
+   scroll-snap-align: start;
 }
 .blue{
   background-color: #2f3c50;
   width: 100vw;
   height: 100vh;
   overflow: auto;
+   scroll-snap-align: start;
 }
 .purple{
   background-color: #6e454a;
   width: 100vw;
   height: 100vh;
   overflow: auto;
+   scroll-snap-align: start;
 }
 
 
@@ -179,7 +200,13 @@
       float:left;
       margin-right: 80px;
       margin-top: 90px;
+
     }
+
+
+
+
+
     .number.one{
       margin-right: 30px;
       margin-top: 120px;
@@ -211,6 +238,12 @@
 
       margin-top: 80px;
     }
+
+
+
+
+
+
 
 
 
@@ -267,6 +300,11 @@
                   transform: rotate(-180deg);
 
             }
+
+
+
+
+
 
 
             .ctop {
@@ -636,7 +674,7 @@
 /* P */
         .animatedTitle .hollowcircle {
           animation: fadeIn 800ms ease-in-out;
-          animation-delay: 4500ms;
+          animation-delay: 3000ms;
           opacity: 0;
           animation-fill-mode: forwards;
 
@@ -652,7 +690,7 @@
                 }
                 .animatedTitle .halfcircle{
                   animation: fadeIn 800ms ease-in-out;
-                  animation-delay: 4500ms;
+                  animation-delay: 3000ms;
                   opacity: 0;
                   animation-fill-mode: forwards;
                 }
@@ -667,7 +705,7 @@
                         }
                 .animatedTitle .hleft{
                   animation: fadeIn 800ms ease-in-out;
-                  animation-delay: 4500ms;
+                  animation-delay: 3000ms;
                   opacity: 0;
                   animation-fill-mode: forwards;
                 }
@@ -682,7 +720,7 @@
                         }
                     .animatedTitle .hright{
                       animation: fadeIn 800ms ease-in-out;
-                      animation-delay: 4500ms;
+                      animation-delay: 3000ms;
                       opacity: 0;
                       animation-fill-mode: forwards;
                     }
@@ -697,7 +735,7 @@
                             }
                             .animatedTitle .blenddot{
                               animation: fadeIn 800ms ease-in-out;
-                              animation-delay: 4500ms;
+                              animation-delay: 3000ms;
                               opacity: 0;
                               animation-fill-mode: forwards;
                             }
@@ -717,7 +755,7 @@
 /* top P */
         .animatedTitle .dot1 {
           animation: dot1move 600ms ease-in-out;
-          animation-delay: 3000ms;
+          animation-delay: 1500ms;
             animation-fill-mode: both;
             transition-timing-function: ease-in;
         }
@@ -735,7 +773,7 @@
 /* Lower P */
                     .animatedTitle .dot2 {
                       animation: dot2move 600ms ease-in-out;
-                      animation-delay: 3000ms;
+                      animation-delay: 1500ms;
                       animation-fill-mode: both;
                       transition-timing-function: ease-in;
                     }
@@ -752,7 +790,7 @@
 /* 1st A */
               .animatedTitle .dot3 {
                 animation: dot3move 600ms ease-in-out;
-                animation-delay: 3000ms;
+                animation-delay: 1500ms;
                 animation-fill-mode: both;
                 transition-timing-function: ease-in;
 
@@ -772,7 +810,7 @@
   /* 1st N */
                     .animatedTitle .dot4 {
                       animation: dot4move 600ms ease-in-out;
-                      animation-delay: 3000ms;
+                      animation-delay: 1500ms;
                       animation-fill-mode: both;
                       transition-timing-function: ease-in;
                     }
@@ -789,7 +827,7 @@
   /* 2nd N */
                     .animatedTitle .dot5 {
                       animation: dot5move 600ms ease-in-out;
-                      animation-delay: 3000ms;
+                      animation-delay: 1500ms;
                       animation-fill-mode: both;
                       transition-timing-function: ease-in;
                     }
@@ -806,7 +844,7 @@
 /* Top D */
                   .animatedTitle .dot6 {
                     animation: dot6move 600ms ease-in-out;
-                    animation-delay: 3000ms;
+                    animation-delay: 1500ms;
                     animation-fill-mode: both;
                     transition-timing-function: ease-in;
                   }
@@ -823,7 +861,7 @@
 /* Bottom D */
                   .animatedTitle .dot7 {
 animation: dot7move 600ms ease-in-out;
-                    animation-delay: 3000ms;
+                    animation-delay: 1500ms;
                     animation-fill-mode: both;
                     transition-timing-function: ease-in;
                   }
@@ -840,7 +878,7 @@ animation: dot7move 600ms ease-in-out;
   /* Last A */
                     .animatedTitle .dot8 {
 animation: dot8move 600ms ease-in-out;
-                      animation-delay: 3000ms;
+                      animation-delay: 1500ms;
                       animation-fill-mode: both;
                       transition-timing-function: ease-in;
                     }
@@ -859,7 +897,7 @@ animation: dot8move 600ms ease-in-out;
                         /* top s */
                                 .animatedTitle .dot9 {
                                   animation: dot9move 600ms ease-in-out;
-                                  animation-delay: 3000ms;
+                                  animation-delay: 1500ms;
                                     animation-fill-mode: both;
                                     transition-timing-function: ease-in;
                                 }
@@ -877,7 +915,7 @@ animation: dot8move 600ms ease-in-out;
                         /* Lower s */
                                             .animatedTitle .dot10 {
                                               animation: dot10move 600ms ease-in-out;
-                                              animation-delay: 3000ms;
+                                              animation-delay: 1500ms;
                                               animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
@@ -894,7 +932,7 @@ animation: dot8move 600ms ease-in-out;
                         /* 2nd m */
                                       .animatedTitle .dot11 {
                                         animation: dot11move 600ms ease-in-out;
-                                        animation-delay: 3000ms;
+                                        animation-delay: 1500ms;
                                         animation-fill-mode: both;
                                         transition-timing-function: ease-in;
                                       }
@@ -913,7 +951,7 @@ animation: dot8move 600ms ease-in-out;
                           /* 1st m */
                                             .animatedTitle .dot12 {
                                               animation: dot12move 600ms ease-in-out;
-                                              animation-delay: 3000ms;
+                                              animation-delay: 1500ms;
                                               animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
@@ -930,7 +968,7 @@ animation: dot8move 600ms ease-in-out;
                           /* 2nd N */
                                             .animatedTitle .dot13 {
                                               animation: dot13move 600ms ease-in-out;
-                                              animation-delay: 3000ms;
+                                              animation-delay: 1500ms;
                                               animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
@@ -947,7 +985,7 @@ animation: dot8move 600ms ease-in-out;
                         /* Top D */
                                           .animatedTitle .dot14 {
                                             animation: dot14move 600ms ease-in-out;
-                                            animation-delay: 3000ms;
+                                            animation-delay: 1500ms;
                                             animation-fill-mode: both;
                                             transition-timing-function: ease-in;
                                           }
@@ -966,7 +1004,7 @@ animation: dot8move 600ms ease-in-out;
                               /* top d */
                                     .animatedTitle .dot15 {
                                       animation: dot15move 600ms ease-in-out;
-                                      animation-delay: 3000ms;
+                                      animation-delay: 1500ms;
                                         animation-fill-mode: both;
                                         transition-timing-function: ease-in;
                                     }
@@ -984,7 +1022,7 @@ animation: dot8move 600ms ease-in-out;
                             /* Lower d */
                                                 .animatedTitle .dot16 {
                                                   animation: dot16move 600ms ease-in-out;
-                                                  animation-delay: 3000ms;
+                                                  animation-delay: 1500ms;
                                                   animation-fill-mode: both;
                                                   transition-timing-function: ease-in;
                                                 }
@@ -1001,7 +1039,7 @@ animation: dot8move 600ms ease-in-out;
                             /* l */
                                           .animatedTitle .dot17 {
                                             animation: dot17move 600ms ease-in-out;
-                                            animation-delay: 3000ms;
+                                            animation-delay: 1500ms;
                                             animation-fill-mode: both;
                                             transition-timing-function: ease-in;
                                           }
@@ -1020,7 +1058,7 @@ animation: dot8move 600ms ease-in-out;
                               /* top d */
                                                 .animatedTitle .dot18 {
                                                   animation: dot18move 600ms ease-in-out;
-                                                  animation-delay: 3000ms;
+                                                  animation-delay: 1500ms;
                                                   animation-fill-mode: both;
                                                   transition-timing-function: ease-in;
                                                 }
@@ -1037,7 +1075,7 @@ animation: dot8move 600ms ease-in-out;
                               /* lower d */
                                                 .animatedTitle .dot19 {
                                                   animation: dot19move 600ms ease-in-out;
-                                                  animation-delay: 3000ms;
+                                                  animation-delay: 1500ms;
                                                   animation-fill-mode: both;
                                                   transition-timing-function: ease-in;
                                                 }
@@ -1054,7 +1092,7 @@ animation: dot8move 600ms ease-in-out;
                             /* left n */
                                               .animatedTitle .dot20 {
                                                 animation: dot20move 600ms ease-in-out;
-                                                animation-delay: 3000ms;
+                                                animation-delay: 1500ms;
                                                 animation-fill-mode: both;
                                                 transition-timing-function: ease-in;
                                               }
@@ -1071,7 +1109,7 @@ animation: dot8move 600ms ease-in-out;
                               /* right n */
                                             .animatedTitle .dot21 {
                                               animation: dot21move 600ms ease-in-out;
-                                              animation-delay: 3000ms;
+                                              animation-delay: 15000ms;
                                               animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
@@ -1088,7 +1126,7 @@ animation: dot8move 600ms ease-in-out;
                               /* right e */
                                             .animatedTitle .dot22 {
                                               animation: dot22move 600ms ease-in-out;
-                                              animation-delay: 3000ms;
+                                              animation-delay: 1500ms;
                                               animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
@@ -1105,7 +1143,7 @@ animation: dot8move 600ms ease-in-out;
                           /* right s1 top */
                                         .animatedTitle .dot23 {
                                           animation: dot23move 600ms ease-in-out;
-                                          animation-delay: 3000ms;
+                                          animation-delay: 1500ms;
                                           animation-fill-mode: both;
                                           transition-timing-function: ease-in;
                                         }
@@ -1122,7 +1160,7 @@ animation: dot8move 600ms ease-in-out;
                         /* right s1 bottom */
                                       .animatedTitle .dot24 {
                                         animation: dot24move 600ms ease-in-out;
-                                        animation-delay: 3000ms;
+                                        animation-delay: 1500ms;
                                         animation-fill-mode: both;
                                         transition-timing-function: ease-in;
                                       }
@@ -1139,7 +1177,7 @@ animation: dot8move 600ms ease-in-out;
                     /* right s2 top */
                                   .animatedTitle .dot25 {
                                     animation: dot25move 600ms ease-in-out;
-                                    animation-delay: 3000ms;
+                                    animation-delay: 1500ms;
                                     animation-fill-mode: both;
                                     transition-timing-function: ease-in;
                                   }
@@ -1156,7 +1194,7 @@ animation: dot8move 600ms ease-in-out;
                   /* right s2 bottom */
                                 .animatedTitle .dot26 {
                                   /* animation: dot26move 600ms ease-in-out; */
-                                  animation-delay: 3000ms;
+                                  animation-delay: 1500ms;
                                   animation-fill-mode: both;
                                   transition-timing-function: ease-in;
                                 }
@@ -1178,7 +1216,7 @@ animation: dot8move 600ms ease-in-out;
                       /* top d */
                                 .animatedTitle .dot27 {
                                   animation: dot27move 600ms ease-in-out;
-                                  animation-delay: 3000ms;
+                                  animation-delay: 1500ms;
                                     animation-fill-mode: both;
                                     transition-timing-function: ease-in;
                                 }
@@ -1196,7 +1234,7 @@ animation: dot8move 600ms ease-in-out;
                         /* Lower d */
                                             .animatedTitle .dot28 {
                                               animation: dot28move 600ms ease-in-out;
-                                              animation-delay: 3000ms;
+                                              animation-delay: 1500ms;
                                               animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
@@ -1213,7 +1251,7 @@ animation: dot8move 600ms ease-in-out;
                         /* right n */
                                       .animatedTitle .dot29 {
                                         animation: dot29move 600ms ease-in-out;
-                                        animation-delay: 3000ms;
+                                        animation-delay: 1500ms;
                                         animation-fill-mode: both;
                                         transition-timing-function: ease-in;
                                       }
@@ -1232,7 +1270,7 @@ animation: dot8move 600ms ease-in-out;
                           /* left n */
                                             .animatedTitle .dot30 {
                                               animation: dot30move 600ms ease-in-out;
-                                              animation-delay: 3000ms;
+                                              animation-delay: 1500ms;
                                               animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
@@ -1249,7 +1287,7 @@ animation: dot8move 600ms ease-in-out;
                           /* e */
                                             .animatedTitle .dot31 {
                                               animation: dot31move 600ms ease-in-out;
-                                              animation-delay: 3000ms;
+                                              animation-delay: 1500ms;
                                               animation-fill-mode: both;
                                               transition-timing-function: ease-in;
                                             }
@@ -1266,7 +1304,7 @@ animation: dot8move 600ms ease-in-out;
                         /* i */
                                           .animatedTitle .dot32 {
                                             animation: dot32move 600ms ease-in-out;
-                                            animation-delay: 3000ms;
+                                            animation-delay: 1500ms;
                                             animation-fill-mode: both;
                                             transition-timing-function: ease-in;
                                           }
@@ -1283,7 +1321,7 @@ animation: dot8move 600ms ease-in-out;
                           /* r */
                                         .animatedTitle .dot33 {
                                           animation: dot33move 600ms ease-in-out;
-                                          animation-delay: 3000ms;
+                                          animation-delay: 1500ms;
                                           animation-fill-mode: both;
                                           transition-timing-function: ease-in;
                                         }
@@ -1300,7 +1338,7 @@ animation: dot8move 600ms ease-in-out;
                           /* right f1 */
                                         .animatedTitle .dot34 {
                                           animation: dot34move 600ms ease-in-out;
-                                          animation-delay: 3000ms;
+                                          animation-delay: 1500ms;
                                           animation-fill-mode: both;
                                           transition-timing-function: ease-in;
                                         }
@@ -1317,7 +1355,7 @@ animation: dot8move 600ms ease-in-out;
                       /* right f2 top */
                                     .animatedTitle .dot35 {
                                       animation: dot35move 600ms ease-in-out;
-                                      animation-delay: 3000ms;
+                                      animation-delay: 1500ms;
                                       animation-fill-mode: both;
                                       transition-timing-function: ease-in;
                                     }
@@ -1334,7 +1372,7 @@ animation: dot8move 600ms ease-in-out;
                     /* t b */
                                   .animatedTitle .dot36 {
                                     animation: dot36move 600ms ease-in-out;
-                                    animation-delay: 3000ms;
+                                    animation-delay: 1500ms;
                                     animation-fill-mode: both;
                                     transition-timing-function: ease-in;
                                   }
@@ -1351,7 +1389,7 @@ animation: dot8move 600ms ease-in-out;
                 /* l b */
                               .animatedTitle .dot37 {
                                 animation: dot37move 600ms ease-in-out;
-                                animation-delay: 3000ms;
+                                animation-delay: 1500ms;
                                 animation-fill-mode: both;
                                 transition-timing-function: ease-in;
                               }
@@ -1368,7 +1406,7 @@ animation: dot8move 600ms ease-in-out;
               /* e */
                             .animatedTitle .dot38 {
                               animation: dot38move 600ms ease-in-out;
-                              animation-delay: 3000ms;
+                              animation-delay: 1500ms;
                               animation-fill-mode: both;
                               transition-timing-function: ease-in;
                             }
@@ -1387,7 +1425,7 @@ animation: dot8move 600ms ease-in-out;
             /* l m */
                           .animatedTitle .dot39 {
                             animation: dot39move 600ms ease-in-out;
-                            animation-delay: 3000ms;
+                            animation-delay: 1500ms;
                             animation-fill-mode: both;
                             transition-timing-function: ease-in;
                           }
@@ -1404,7 +1442,7 @@ animation: dot8move 600ms ease-in-out;
             /* rm */
                         .animatedTitle .dot40 {
                           animation: dot40move 600ms ease-in-out;
-                          animation-delay: 3000ms;
+                          animation-delay: 1500ms;
                           animation-fill-mode: both;
                           transition-timing-function: ease-in;
                         }
@@ -1421,7 +1459,7 @@ animation: dot8move 600ms ease-in-out;
                             /* r */
                                           .animatedTitle .dot41 {
                                             animation: dot41move 600ms ease-in-out;
-                                            animation-delay: 3000ms;
+                                            animation-delay: 1500ms;
                                             animation-fill-mode: both;
                                             transition-timing-function: ease-in;
                                           }
@@ -1438,7 +1476,7 @@ animation: dot8move 600ms ease-in-out;
                             /* n */
                                         .animatedTitle .dot42 {
                                           animation: dot42move 600ms ease-in-out;
-                                          animation-delay: 3000ms;
+                                          animation-delay: 1500ms;
                                           animation-fill-mode: both;
                                           transition-timing-function: ease-in;
                                         }
@@ -1455,7 +1493,7 @@ animation: dot8move 600ms ease-in-out;
                                             /* n */
                                                         .animatedTitle .dot43 {
                                                           animation: dot43move 600ms ease-in-out;
-                                                          animation-delay: 3000ms;
+                                                          animation-delay: 1500ms;
                                                           animation-fill-mode: both;
                                                           transition-timing-function: ease-in;
                                                         }
@@ -1486,7 +1524,7 @@ animation: dot8move 600ms ease-in-out;
 
 #spinny {
 
-  transform-origin: 48.% 0% ;
+  transform-origin: 48.5% 0% ;
 
 }
 .run #spinny {
@@ -1553,7 +1591,6 @@ transition: all 400ms ease-out;
 
 
 
-#clickToStart
 .animatedTitle .dot1,
 .animatedTitle .dot2,
 .animatedTitle .dot3,
@@ -1606,9 +1643,6 @@ transition: all 400ms ease-out;
 
 animation-play-state: paused;
 }
-
-
-
 .animatedTitle.run .dot1,
 .animatedTitle.run .dot2,
 .animatedTitle.run .dot3,
