@@ -1,0 +1,418 @@
+*
+ {
+   padding:0px;
+   margin: 0px;
+
+}
+
+
+body {
+	font-family: helvetica, arial, sans-serif;
+  text-align:center;
+  font-size: 25px;
+}
+
+/* container */
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+/* items */
+
+.item {
+	height: 200px;
+	width: 200px;
+	background: #d5bdcb;
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	cursor: cell;
+  border-radius: 40px;
+  border-style: dotted;
+  border-color: #e8dbca;
+
+}
+
+/* rotate */
+#element-1:hover {
+	transform: rotate(360deg) scale(1.5);
+  margin-top:100px;
+  margin-bottom:100px;
+  cursor: grab;
+
+}
+#element-1:active {
+	background: #ef5757;
+	opacity: 1;
+
+}
+
+/* show text */
+
+#element-2::after {
+	content: '';
+	color: white;
+}
+#element-2:hover::after {
+	content: ' woah, words';
+	color: white;
+  font-size:50px;
+}
+
+/* example element 4 */
+#element-4.gradient-background {
+	background: linear-gradient(blue, pink);
+	color: transparent;
+}
+
+/* example element 5 */
+.circle {
+	border-radius: 125px;
+  background: linear-gradient(#6e4557,  #edabc5);
+
+}
+
+/* effect another */
+#element-6{
+	transition: none;
+  align-font:center;
+  cursor: grab;
+}
+
+
+/* spint reveal text */
+#element-8:hover {
+	transform:rotate(360deg) scale(3);
+  margin-top:220px;
+  margin-bottom:220px;
+background: #63354e;
+  border-radius: 100px;
+}
+#element-8:active {
+	opacity: 1;
+
+}
+#element-8::after {
+	content: '';
+	color: white;
+}
+#element-8:hover::after {
+	content: 'grape';
+	color: black;
+  font-size:50px;
+}
+
+
+/* skew */
+#element-10:hover {
+	transform: rotate(360deg) scale(1.5);
+background: #8f5970;
+  margin-top:100px;
+  margin-bottom:100px;
+  border-radius: 100px;
+}
+#element-10:active {
+	background: #8f5970;
+	opacity: 1;
+  transform: skew(20deg);
+}
+#element-11:hover {
+	transform: rotate(360deg) scale(1.5);
+background: #ef5757;
+  margin-top:100px;
+  margin-bottom:100px;
+transform: skew(60deg);
+}
+#element-10:active {
+	background: #c1c5ba;
+	opacity: 1;
+  transform: skew(20deg);
+}
+
+/* click fade */
+#element-13:hover {
+	transform: scaleX(1.5);
+  transition: 2s;
+  overflow: hidden;
+  border-radius: 100px;
+  cursor: grab;
+}
+#element-13:active {
+	background: #8f5970;
+	opacity: 1;
+  filter: blur(20px);
+
+}
+
+
+/* grey move down */
+#element-new1:hover {
+  margin-top:100px;
+  margin-bottom:100px;
+  filter: grayscale(100%);
+
+}
+#element-new1:active {
+  transform: scaleY(0px);
+
+}
+
+
+/* scroll */
+#element-new2 {
+    transition: all 1000ms ease-in;
+     overflow:auto;
+}
+#element-new2:hover {
+	color: white;
+  background-color: #f5efef;
+  transition: 2s;
+}
+#element-new2:active{
+	color: white;
+  font-size:50px;
+
+}
+#scroller {
+/* make this box wider than the
+  scrollable box its inside of  */
+  width:500px;
+  color:white;
+  font-size:30px;
+  cursor:pointer;
+}
+
+
+/* click fade */
+#element-new3:hover {
+  transition: 2s;
+  overflow: hidden;
+  border-radius: 100px;
+  cursor: grab;
+}
+#element-new3:active {
+	opacity: 1;
+  filter: contrast(20);
+  transition: 10s;
+
+}
+
+
+/* cursor change */
+#element-new4:hover {
+  transition: 2s;
+  overflow: hidden;
+  border-radius: 100px;
+  cursor: help;
+
+}
+#element-new4:active {
+	opacity: 1;
+  transition: 10s;
+}
+
+
+/* hover disapear */
+#element-new5:hover {
+  transition: 1s;
+  opacity: 0;
+}
+#element-new5:active {
+	opacity: 1;
+
+}
+
+
+/* kerning */
+#element-new6 {
+    transition: all 1000ms ease-in;
+     overflow:auto;
+     letter-spacing: 0px;
+}
+#element-new6:hover {
+	color: white;
+  transition: 1s;
+  letter-spacing: 5px;
+}
+#element-newx6:active{
+  font-size:50px;
+
+}
+
+/* crossout */
+#element-new7 {
+    transition: all 1000ms ease-in;
+     overflow:auto;
+     letter-spacing: 5px;
+     text-decoration-line: none;
+     font-size: 80px;
+
+}
+#element-new7:hover {
+	color: white;
+  transition: 1s;
+  text-decoration-line: line-through;
+  background-color: #d14156;
+}
+#element-new7:active{
+  font-size:50px;
+
+}
+
+
+/* verticle text */
+#element-new8 {
+    transition: all 1000ms ease-in;
+     overflow:auto;
+     letter-spacing: 5px;
+    writing-mode: none;
+     font-size: 80px;}
+#element-new8:hover {
+	color: white;
+  transition: 1s;
+writing-mode: vertical-rl;
+}
+#element-new8:active{
+  font-size:50px;
+  writing-mode: vertical-rl;
+}
+
+/* shadow */
+#element-new9:hover {
+  transition: 1s;
+  filter: drop-shadow(20px 8px 4px grey);
+  transform: scale(1.25);
+}
+#element-new9:active{
+  font-size:50px;
+}
+
+
+/* flip */
+#element-new10:hover {
+  transition: 1s;
+  	-webkit-animation: flip-diagonal-2-br 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  	        animation: flip-diagonal-2-br 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;}
+#element-new10:active{
+  font-size:50px;}
+@-webkit-keyframes element-new10:hover {
+  0% {
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+            transform: rotate3d(-1, 1, 0, 0deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(-1, 1, 0, 180deg);
+            transform: rotate3d(-1, 1, 0, 180deg);
+  }
+}
+@keyframes flip-diagonal-2-br {
+  0% {
+    -webkit-transform: rotate3d(-1, 1, 0, 0deg);
+            transform: rotate3d(-1, 1, 0, 0deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(-1, 1, 0, 180deg);
+            transform: rotate3d(-1, 1, 0, 180deg);
+  }
+}
+
+
+/* spin around */
+#element-new11:hover {
+  transition: 1s;
+  -webkit-animation: element-new11 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+          animation: element-new11 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+
+}
+#element-new11:active{
+  font-size:50px;
+}
+
+@-webkit-keyframes element-new11 {
+  0% {
+    -webkit-transform: translateX(0) translateZ(0) rotateY(0);
+            transform: translateX(0) translateZ(0) rotateY(0);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+  }
+  100% {
+    -webkit-transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+            transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+  }
+}
+@keyframes element-new11 {
+  0% {
+    -webkit-transform: translateX(0) translateZ(0) rotateY(0);
+            transform: translateX(0) translateZ(0) rotateY(0);
+    -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%;
+  }
+  100% {
+    -webkit-transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+            transform: translateX(100%) translateZ(-260px) rotateY(180deg);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+  }
+}
+
+
+/* raise up */
+#element-new12:hover {
+  transition: 1s;
+	-webkit-animation: element-new12 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: element-new12 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+}
+#element-new12:active{
+  font-size:50px;
+}
+@-webkit-keyframes selement-new12 {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
+    -webkit-transform: translateX(-8px) translateY(-8px);
+            transform: translateX(-8px) translateY(-8px);
+  }
+}
+@keyframes element-new12 {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px 1px #3e3e3e, 2px 2px #3e3e3e, 3px 3px #3e3e3e, 4px 4px #3e3e3e, 5px 5px #3e3e3e, 6px 6px #3e3e3e, 7px 7px #3e3e3e, 8px 8px #3e3e3e;
+    -webkit-transform: translateX(-8px) translateY(-8px);
+            transform: translateX(-8px) translateY(-8px);
+  }
+}
+
+
+
+
+
+#element-new13:hover {
+  transition: 1s;
+}
+#element-new13:active{
+  font-size:50px;
+}
