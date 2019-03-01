@@ -1219,3 +1219,15 @@ animation-direction: alternate;
             transform: scale3d(1, 1, 1);
   }
 }
+
+
+/* image inside */
+#element-new27:hover{
+  background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/positive.png");
+  background-position: inherit;
+  background-size: cover;
+  overflow: allow;
+  border-color: black;
+  border-style: solid;
+  border-width: 10px;
+}
