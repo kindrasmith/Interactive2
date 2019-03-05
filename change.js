@@ -53,9 +53,14 @@ element7.addEventListener('click', function(){
 let doAThing = document.querySelector('#doAThing')
 let scroller = document.querySelector('#scroller')
 
+
+let doAThing = document.querySelector('#doAThing')
+let scroller = document.querySelector('#scroller3')
+
 doAThing.addEventListener('scroll',function(){
   scroller.style.fontFamily = 'sans-serif'
 })
+
 
 
 element9.addEventListener('hover', function(){

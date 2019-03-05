@@ -994,12 +994,15 @@ writing-mode: vertical-rl;
 }
 
 
-/* fling back */
+/* fling side*/
+#element-new20:active{
+  cursor: grab;
+}
 #element-new20:hover {
   cursor: grab;
 
-  -webkit-animation: element-new20 0.7s ease-in both;
-  	        animation: element-new20 0.7s ease-in both;
+  -webkit-animation: element-new20 2s ease-in both;
+  	        animation: element-new20 2s ease-in both;
 
 }
 @-webkit-keyframes element-new20 {
@@ -1230,4 +1233,331 @@ animation-direction: alternate;
   border-color: black;
   border-style: solid;
   border-width: 10px;
+}
+
+/* Squishy */
+#element-new28:hover{
+    background-color: #b38083;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+  -webkit-animation: lement-new28 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: lement-new28 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes lement-new28 {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scaleY(0.3);
+            transform: scaleY(0.3);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
+@keyframes lement-new28 {
+  0% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+  100% {
+    -webkit-transform: scaleY(0.3);
+            transform: scaleY(0.3);
+    -webkit-transform-origin: 0% 100%;
+            transform-origin: 0% 100%;
+  }
+}
+
+#element-new28:active{
+  background-color: #804d50;
+  transition: 1s;
+  transition-timing-function: ease-in-out;
+  -webkit-animation: element-new28 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: element-new28 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes element-new28 {
+  0% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+  100% {
+    -webkit-transform: scaleY(0.3);
+            transform: scaleY(0.3);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+}
+@keyframes element-new28 {
+  0% {-webkit-transform: scaleY(1);
+      transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+  100% {-webkit-transform: scaleY(0.3);
+            transform: scaleY(0.3);
+    -webkit-transform-origin: 100% 0%;
+            transform-origin: 100% 0%;
+  }
+}
+
+
+/* the view */
+#element-new29:hover{
+  cursor: grab;
+  width: 300px;
+  height: 300px;
+  margin-top:50px;
+  margin-bottom: 50px;
+  background-image: url("https://www.ctcbus.com/sites/default/files/image-uploads/sunset-Stanley-idaho.jpg");
+  background-position: inherit;
+  background-size: cover;
+  overflow: allow;
+  -webkit-animation: element-new29 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: element-new29 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes element-new29 {
+  0% {
+    box-shadow: 0 0 40 10 #ef5757;
+  }
+  100% {
+    box-shadow: 0 0 40px 10px #ef5757;
+  }
+}
+@keyframes element-new29 {
+  0% {
+    box-shadow: 0 0 40 10 #ef5757;
+  }
+  100% {
+    box-shadow: 0 0 40px 10px #ef5757;
+  }
+}
+#element-new29:active{
+  filter: grayscale(100%);
+  -webkit-animation: element-new29b 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: element-new29b 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes element-new29b {
+  0% {
+    box-shadow: 0 0 40 10 grey;
+  }
+  100% {
+    box-shadow: 0 0 40px 10px grey;
+  }
+}
+@keyframes element-new29b {
+  0% {
+    box-shadow: 0 0 40 10 grey;
+  }
+  100% {
+    box-shadow: 0 0 40px 10px grey;
+  }
+}
+
+
+/* scroll image */
+
+#element-new30:hover{
+  cursor: grab;
+  background-image: url("https://media.istockphoto.com/vectors/enjoy-it-phrase-vector-id635852400");
+  background-position: inherit;
+  background-size: auto;
+  scroller: auto;
+
+}
+#scroller {
+/* make this box wider than the
+  scrollable box its inside of  */
+  width:500px;
+  color:white;
+  font-size:30px;
+  cursor:pointer;
+}
+
+
+/* header */
+
+#element-new31:active {
+    background-color: #f1f1f1;
+    padding: 50px 10px;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+  }
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.getElementById("element-new31").style.fontSize = "30px";
+    } else {
+      document.getElementById("element-new31").style.fontSize = "90px";
+    }
+  }
+
+}
+/* Sticky element */
+#element-new32 {
+margin-left: 20px;
+margin-right: 20px;
+  }
+  div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:#d5bdcb;
+  padding: 50px;
+
+
+}
+
+
+/* gradient animation */
+  #element-new33{
+    transition: 2s;
+  }
+    #element-new33:hover{
+      transition: 2s;
+      -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+      animation: mymove 5s infinite;
+    }
+    /* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {background-color: #d5bdcb;}
+  to {background-color: #607e9f;}
+}
+
+
+#element-new34 {
+  transition: all 1000ms ease-in;
+   overflow:auto;
+  }
+
+  #element-new34:hover {
+  	color: white;
+    background: linear-gradient(141deg, #d14156 0%, #d5bdcb 51%, #ced1c8 75%);
+    height:1000px;
+    transition: 2s;
+  }
+  #element-new34:active{
+  	color: white;
+    font-size:50px;
+
+  }
+  #scroller2 {
+  /* make this box wider than the
+    scrollable box its inside of  */
+    width:500px;
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+  }
+
+  #element-new35{
+    transition: 2s;
+  }
+    #element-new35:hover{
+      transition: 2s;
+      -webkit-animation: mymove2 5s infinite; /* Chrome, Safari, Opera */
+      animation: mymove2 5s infinite;
+      border-radius: 100px;
+      transform: rotate(180deg);
+      border-style: solid;
+      border-color: orange;
+
+    }
+    /* Chrome, Safari, Opera */
+@-webkit-keyframes mymove2 {
+  from {background-color: #feffe6;}
+  to {background-color: #ffaf8b;}
+}
+
+
+
+/* woah */
+#element-new36 {
+
+  margin-top:10px;
+  margin-bottom:10px;
+  cursor: grab;
+}
+#element-new36:hover {
+	background:  #d5bdcb;
+	opacity: 1;
+  font-size: 60px;
+  text-shadow: 5px 5px 10px  #46425a;
+  letter-spacing: -12px;
+}
+
+
+#element-new37 {
+
+  margin-top:10px;
+  margin-bottom:10px;
+}
+#element-new37:hover {
+  border: 20px solid #9c6384;
+  border-style: groove;
+
+  border-bottom-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+/* heartbeat */
+#element-new38:hover
+{background-color: red;
+	-webkit-animation: ping 0.8s ease-in-out infinite both;
+	        animation: ping 0.8s ease-in-out infinite both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2019-3-4 23:11:36
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation ping
+ * ----------------------------------------
+ */
+@-webkit-keyframes ping {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+    opacity: 0;
+  }
+}
+@keyframes ping {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0.8;
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+    opacity: 0;
+  }
 }
