@@ -1,0 +1,33 @@
+*
+ {
+   padding:0px;
+   margin: 0px;}
+
+
+
+/*
+.floatyguy{
+height: 80px;
+width: 80px;
+margin-left:400px;
+margin-top: 250px;
+position: absolute;
+}
+.sharky{
+height: 90px;
+width: 90px;
+margin-left: 800px;
+margin-top: 400px;
+position: fixed;
+
+} */
+body { margin: 0; background: #fee1e1; overflow: hidden; }
+
+canvas {
+  background-color: #fee1e1;
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width: 100cw;
+  height: 100vh;
+}

@@ -1,0 +1,208 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Arbutus+Slab|Rozha+One|Yeseva+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Arbutus+Slab|Rozha+One|Suranna|Yeseva+One" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/irs2lvb.css">
+
+  <link rel="stylesheet" href="https://use.typekit.net/nvu7lkf.css">
+
+  <!-- INSERT JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- INSERT P5 LIBRARIES -->
+  <script src="js/libraries/p5.js" type="text/javascript"></script>
+  <script src="js/libraries/p5.dom.js" type="text/javascript"></script>
+  <script src="js/libraries/p5.sound.js" type="text/javascript"></script>
+  <script src="js/libraries/tabletop.js" type="text/javascript"></script>
+
+  <!-- INSERT YOUR p5 JS FILE -->
+  <script src="js/p5sketch.js" type="text/javascript"></script>
+
+  <!-- INSERT YOUR p5 JS FILE -->
+  <script src="js/poll.js" type="text/javascript"></script>
+
+  <style>
+
+    body {
+      background-color: #e6e6e6;
+    }
+
+    h1 {
+
+      font-family: "freight-display-pro-medium, serif";
+
+      font-weight: 400;
+
+      font-style: medium;
+    }
+    h2{
+      font-family: "freight-display-pro-medium, serif";
+      font-weight:100;
+      font-size: 19px;
+      position: absolute;
+    }
+
+                .newspaper {
+                  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+                  column-width: 9%;
+                  column-count: 2;
+                  margin-left: 6%;
+                  margin-right: 40%;
+                  column-gap: 10%;
+
+
+
+
+                }
+                div.c {
+                    line-height: 1.8;
+
+                }
+                span.al{
+                  font-size: 40px;
+                }
+
+
+
+
+
+    .submission p, .submission h5 {
+    position: relative;
+}
+
+div#al-answers-good {
+    width: 40vw;
+    float: left;
+}
+
+div#inputs {
+    float: left;
+}
+
+div#al-answers-bad {
+    width: 40vw;
+    float: right;
+}
+
+#al-answers-good .holdtitles {
+    background-color: #4C8056;
+}
+
+#al-answers-bad .holdtitles {
+    background-color: #865D60;
+}
+
+div#inputs {
+    float: left;
+    clear: both;
+    width: 100vw;
+    border-top: 1px solid red;
+}
+
+#form-good-or-bad h4 {
+    width: 100vw;
+}
+
+.container1{
+  width: 100vw;
+
+
+}
+.container2{
+  width: 100vw;
+    overflow: auto;
+
+}
+.container3{
+  width: 100vw;
+  height: 100vh;
+
+}
+.container4{
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+
+  <img src="photos/WhoisAl2.png" class="w3-round-small" style="width:100vw; margin-top:-270px">
+
+<div class="container1">
+
+      <img src="photos/FinalModel.png" class="w3-round-small" style="width:100vw; ">
+
+               <div class="newspaper c">  <span class="al">Al</span>, your new shopping buddy? Across the nation, people are using Algorithmic Shopping known as Al to pick out their clothings, shoes and accessories. Al watches you to see what you like, dislike and click on in order to make an overall assumption of what you your fashion sense is. Some say that it saves you the hassle of having to go into the store and try on piece after piece. Others are asking if Algorithmic Shopping truly knows what you want to wear considering it is makes an
+                 <br><br> “assumption”
+                 what you like.
+
+
+          <br><br>Since it’s launch on August 3rd of last year, it has caused quiet the contraversy. People are furious that Algorithmic Shopping has unemployed thousands of people who work Instacart, Postmates, Ubereats and more. Algorithmic shopping does all the work for you. Others are excited about this new way of shopping where you do not have to download anymore apps, have to decide what you want to eat and how you are going to make it.
+
+          Al has personified become personified by the mass-media. Algorithmic shopping as become millions of consumers personal shoppers. Anywhere from clothing, food to furnishing your home. Algorithmic Shopping has been called...
+
+          <br><br>“The new, personalized
+           way of shopping.”</div>
+
+
+          </div>
+
+<div class="container2">
+
+
+
+
+
+  <div id="al-answers-good">
+  </div>
+
+  <div id="al-answers-bad">
+  </div>
+
+  <div id="inputs">
+
+    <form id="form-good-or-bad">
+      <div class="good or bad">
+        <h4>is this good or bad</h4>
+        <label class="container">good<input type="radio" name="good" value="good" class="actor"> <span class="checkmark"> </span></label>
+        <label class="container">bad<input type="radio" name="bad" value="bad" class="actor"> <span class="checkmark"> </span></label>
+      </div>
+      <div class="container-entername">
+        <input type="text" name="name" value="yourname" class="yername">
+      </div>
+      <div class="container-enterthoughts">
+        <textarea rows="4" cols="50" class="yerthoughts" value="yourthoughts"></textarea>
+      </div>
+      <input type="button" class="submit" id="b6" onClick="insert_value()" value="Tell us!">
+        </form>
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+
+</body>
+
+</html>
