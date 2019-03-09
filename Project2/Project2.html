@@ -22,7 +22,7 @@ project.currentStyle = {
 	fillColor: '#971c41'};
 
 var ballPositions = [[255, 220]];
-
+var dave = [[255, 220]];
 
 
 var handle_len_rate = 2.4;
@@ -38,6 +38,11 @@ var circlePath2 = new Path.Circle({
 });
 
 circlePaths.push(circlePath);
+
+circlePaths[0].selected = false;
+circlePaths[0].selectedColor = '#ff485e';
+
+dave.push(circlePath);
 
 circlePaths[0].selected = false;
 circlePaths[0].selectedColor = '#ff485e';
