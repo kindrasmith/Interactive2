@@ -19,10 +19,11 @@
 // Ported from original Metaball script by SATO Hiroyuki
 // http://park12.wakwak.com/~shp/lc/et/en_aics_script.html
 project.currentStyle = {
-	fillColor: '#2e2f30'
-};
+	fillColor: '#971c41'};
 
 var ballPositions = [[255, 220]];
+
+
 
 var handle_len_rate = 2.4;
 var circlePaths = [];
@@ -31,6 +32,11 @@ var circlePath = new Path.Circle({
   center: ballPositions[0],
   radius: 200,
 });
+var circlePath2 = new Path.Circle({
+  center: ballPositions[0],
+  radius: 200,
+});
+
 circlePaths.push(circlePath);
 
 circlePaths[0].selected = false;
