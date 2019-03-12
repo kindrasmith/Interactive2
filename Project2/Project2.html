@@ -31,10 +31,13 @@ var handle_len_rate = 2.4;
 var circlePaths = [];
 
 var dave = new Path.Circle({
-                              center: [300, 400],
+                              center: [900, 400],
                               radius: 100
                             });
-
+                            var dave2 = new Path.Circle({
+                                                          center: [1200, 800],
+                                                          radius: 50
+                                                        });
 
 var circlePath = new Path.Circle({
   center: ballPositions[0],
@@ -47,11 +50,16 @@ var circlePath2 = new Path.Circle({
 
 circlePaths.push(circlePath);
                             circlePaths.push(dave);
-
+                            circlePaths.push(dave2);
 circlePaths[0].selected = false;
 circlePaths[0].selectedColor = '#ff485e';
                             dave.selected = false;
                             dave.selectedColor = '#ff485e';
+                            circlePaths[0].selected = false;
+
+                            circlePaths[0].selectedColor = '#ff485e';
+                                                        dave2.selected = false;
+                                                        dave2.selectedColor = '#ff485e';
 var largeCircle = new Path.Circle({
 	center: [535, 120],
 	radius: 80
