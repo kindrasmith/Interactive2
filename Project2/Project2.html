@@ -22,35 +22,51 @@ project.currentStyle = {
 	fillColor: '#971c41'};
 
 var ballPositions = [[255, 220]];
-var dave = [[255, 220]];
+                              var dave = [[400, 300]];
 
 
 var handle_len_rate = 2.4;
 var circlePaths = [];
 
+
+
+
 var circlePath = new Path.Circle({
   center: ballPositions[0],
   radius: 200,
 });
+
 var circlePath2 = new Path.Circle({
   center: ballPositions[0],
   radius: 200,
 });
 
+
 circlePaths.push(circlePath);
 
+
+                            circlePaths.push(dave);
+
+
 circlePaths[0].selected = false;
 circlePaths[0].selectedColor = '#ff485e';
 
-dave.push(circlePath);
 
-circlePaths[0].selected = false;
-circlePaths[0].selectedColor = '#ff485e';
+                            dave.selected = false;
+                            dave.selectedColor = '#ff485e';
+
 
 var largeCircle = new Path.Circle({
 	center: [535, 120],
 	radius: 80
 });
+
+                            var dave = new Path.Circle({
+                              center: [300, 400],
+                              radius: 100
+                            });
+
+
 circlePaths.push(largeCircle);
 
 function onMouseMove(event) {
