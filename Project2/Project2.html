@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<!-- saved from url=(0065)https://kindrasmith.github.io/Interactive2/Project2/Project2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Mouse Events</title>
-    <meta charset="utf-8" />
-    <script src="paper-full.min.js" defer></script>
 
-<script src="project2.js"></script>
-    <link rel="stylesheet" href="Project2.css" type="text/css" />
+    <script src="./Mouse Events_files/paper-full.min.js" defer=""></script>
+
+<script src="./Mouse Events_files/project2.js"></script>
+    <link rel="stylesheet" href="./Mouse Events_files/Project2.css" type="text/css">
 </head>
 
 
@@ -22,14 +21,17 @@ project.currentStyle = {
 	fillColor: '#971c41'};
 
 var ballPositions = [[255, 220]];
-                              var dave = [[400, 300]];
+
 
 
 var handle_len_rate = 2.4;
 var circlePaths = [];
 
 
-
+var dave = new Path.Circle({
+                              center: [300, 400],
+                              radius: 100
+                            });
 
 var circlePath = new Path.Circle({
   center: ballPositions[0],
@@ -61,10 +63,7 @@ var largeCircle = new Path.Circle({
 	radius: 80
 });
 
-                            var dave = new Path.Circle({
-                              center: [300, 400],
-                              radius: 100
-                            });
+
 
 
 circlePaths.push(largeCircle);
@@ -167,8 +166,9 @@ function getVector(radians, length) {
 	});
 }
 </script>
-<canvas resize="true" id="meta-ball"></canvas>
+<canvas resize="true" id="meta-ball" width="2466" height="720" data-paper-scope="1" style="-webkit-user-drag: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas>
 
 
-</body>
-</html>
+
+
+</body></html>
