@@ -23,21 +23,29 @@
 project.currentStyle = {
 	fillColor: '#971c41'};
 
-var ballPositions = [[255, 220]];
+var ballPositions = [[300, 300]];
 
 
 
 var handle_len_rate = 2.4;
 var circlePaths = [];
 
-var dave = new Path.Circle({
-                              center: [900, 400],
-                              radius: 100
-                            });
-                            var dave2 = new Path.Circle({
-                                                          center: [1200, 800],
-                                                          radius: 50
-                                                        });
+              var dave = new Path.Circle({
+                          center: [900, 400],
+                          radius: 100
+                        });
+              var dave2 = new Path.Circle({
+                          center: [1200, 700],
+                          radius: 50
+                        });
+              var dave3 = new Path.Circle({
+                          center: [650, 850],
+                          radius: 30
+                        });
+              var dave4 = new Path.Circle({
+                          center: [1600, 200],
+                          radius: 250
+                        });
 
 var circlePath = new Path.Circle({
   center: ballPositions[0],
@@ -51,6 +59,9 @@ var circlePath2 = new Path.Circle({
 circlePaths.push(circlePath);
                             circlePaths.push(dave);
                             circlePaths.push(dave2);
+                            circlePaths.push(dave3);
+                            circlePaths.push(dave4);
+
 circlePaths[0].selected = false;
 circlePaths[0].selectedColor = '#ff485e';
                             dave.selected = false;
@@ -58,8 +69,17 @@ circlePaths[0].selectedColor = '#ff485e';
                             circlePaths[0].selected = false;
 
                             circlePaths[0].selectedColor = '#ff485e';
-                                                        dave2.selected = false;
-                                                        dave2.selectedColor = '#ff485e';
+                                  dave2.selected = false;
+                                  dave2.selectedColor = '#ff485e';
+
+                            circlePaths[0].selectedColor = '#ff485e';
+                                  dave3.selected = false;
+                                  dave3.selectedColor = '#ff485e';
+                            circlePaths[0].selectedColor = '#ff485e';
+                                  dave4.selected = false;
+                                  dave4.selectedColor = '#ff485e';
+
+
 var largeCircle = new Path.Circle({
 	center: [535, 120],
 	radius: 80
