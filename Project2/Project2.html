@@ -108,40 +108,39 @@ circlePaths.push(circlePath);
                             circlePaths.push(dave10);
                             circlePaths.push(dave11);
 
-circlePaths[0].selected = false;
-circlePaths[0].fillColor = '#5f2441';
+
                             dave.selected = false;
                             dave.fillColor = '#5f2441';
-                            circlePaths[0].selected = false;
 
-                            circlePaths[0].fillColor = '#146060';
+
+
                                   dave2.selected = false;
                                   dave2.fillColor = '#146060';
-                            circlePaths[0].fillColor = '#ff6420';
+
                                   dave3.selected = false;
                                   dave3.fillColor = '#ff6420';
-                            circlePaths[0].fillColor = '#146060';
+
                                   dave4.selected = false;
                                   dave4.fillColor = '#146060';
-                            circlePaths[0].fillColor = '#a0005c';
+
                                   dave5.selected = false;
                                   dave5.fillColor = '#a0005c';
-                            circlePaths[0].fillColor = '#a0005c';
+
                                   dave6.selected = false;
                                   dave6.fillColor = '#a0005c';
-                            circlePaths[0].fillColor = '#ff6420';
+
                                   dave7.selected = false;
                                   dave7.fillColor = '#ff6420';
-                            circlePaths[0].fillColor = '#fbae36';
+
                                   dave8.selected = false;
                                   dave8.fillColor = '#fbae36';
-                            circlePaths[0].fillColor = '#f9005a';
+
                                   dave9.selected = false;
                                   dave9.fillColor = '#f9005a';
-                            circlePaths[0].fillColor = '#5f2441';
+
                                   dave10.selected = false;
                                   dave10.fillColor = '#5f2441';
-                            circlePaths[0].fillColor = '#fbae36';
+
                                   dave11.selected = false;
                                   dave11.fillColor = '#fbae36';
 
@@ -156,7 +155,7 @@ circlePaths.push(largeCircle);
 
 function onMouseMove(event) {
 
-  largeCircle.fillColor = '#f2e3c2';
+  // largeCircle.fillColor = '#f2e3c2';//
 
 	largeCircle.position = event.point;
 	generateConnections(circlePaths);
@@ -168,6 +167,7 @@ function generateConnections(paths) {
   var debug = false;
 
 	for (var i = 0, l = paths.length; i < l; i++) {
+    paths[i].selected = false
 		for (var j = i - 1; j >= 0; j--) {
 			var path = metaball(paths[i], paths[j], 0.5, handle_len_rate, 225, j === 0, debug);
 			if (path) {
@@ -176,6 +176,7 @@ function generateConnections(paths) {
 
         if(i == largeCircleIndex){
              // there is a connection, and its between dave and largeCircle
+             console.log(paths[j].fillColor._canvasStyle)
              largeCircle.fillColor = paths[j].fillColor;
              console.log(largeCircle)
          }
