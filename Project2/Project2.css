@@ -21,7 +21,7 @@ margin-top: 400px;
 position: fixed;
 
 } */
-body { margin: 0; background: #fee1e1; overflow: hidden; }
+body { margin: 0; background: #fee1e1; overflow: hidden; cursor: none;;}
 
 canvas {
   background-color: #f1e8d1;

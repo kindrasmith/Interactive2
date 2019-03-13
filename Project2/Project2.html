@@ -21,9 +21,10 @@
 
 
 project.currentStyle = {
-	fillColor: '#971c41'};
+	fillColor: '#f9005a'};
 
-var ballPositions = [[300, 300]];
+var ballPositions = [[80, 750]];
+
 
 
 
@@ -31,29 +32,67 @@ var handle_len_rate = 2.4;
 var circlePaths = [];
 
               var dave = new Path.Circle({
-                          center: [900, 400],
-                          radius: 100
+                          center: [1378, 925],
+                          radius: 80
                         });
+                        // pink middle
               var dave2 = new Path.Circle({
-                          center: [1200, 700],
+                          center: [945, 800],
                           radius: 50
-                        });
+                      });
+                      // orange bottom
               var dave3 = new Path.Circle({
-                          center: [650, 850],
+                          center: [505, 900],
                           radius: 30
                         });
+                        // purple left
               var dave4 = new Path.Circle({
-                          center: [1600, 200],
-                          radius: 250
+                          center: [1600, 50],
+                          radius: 90
                         });
+                        // yellow right
+              var dave5 = new Path.Circle({
+                          center: [1630, 500],
+                          radius: 20
+                        });
+                        // purple left small
+              var dave6 = new Path.Circle({
+                          center: [289, 351],
+                          radius: 25
+                        });
+                        // orange middle
+              var dave7 = new Path.Circle({
+                          center: [1188, 420],
+                          radius: 60
+                        });
+                        // top yellow middle
+              var dave8 = new Path.Circle({
+                          center: [738, 400],
+                          radius: 70
+                        });
+              var dave9 = new Path.Circle({
+                          center: [1050, -10],
+                          radius: 25
+                        });
+                        // deep purple top leftish
+              var dave10 = new Path.Circle({
+                          center: [600, -29],
+                          radius: 85
+                        });
+                        // very left top
+              var dave11 = new Path.Circle({
+                          center: [0, 0],
+                          radius: 60
+                        });
+
 
 var circlePath = new Path.Circle({
   center: ballPositions[0],
-  radius: 200,
+  radius: 100,
 });
 var circlePath2 = new Path.Circle({
   center: ballPositions[0],
-  radius: 200,
+  radius: 100,
 });
 
 circlePaths.push(circlePath);
@@ -61,32 +100,65 @@ circlePaths.push(circlePath);
                             circlePaths.push(dave2);
                             circlePaths.push(dave3);
                             circlePaths.push(dave4);
+                            circlePaths.push(dave5);
+                            circlePaths.push(dave6);
+                            circlePaths.push(dave7);
+                            circlePaths.push(dave8);
+                            circlePaths.push(dave9);
+                            circlePaths.push(dave10);
+                            circlePaths.push(dave11);
 
 circlePaths[0].selected = false;
-circlePaths[0].selectedColor = '#ff485e';
+circlePaths[0].fillColor = '#5f2441';
                             dave.selected = false;
-                            dave.selectedColor = '#ff485e';
+                            dave.fillColor = '#5f2441';
                             circlePaths[0].selected = false;
 
-                            circlePaths[0].selectedColor = '#ff485e';
+                            circlePaths[0].fillColor = '#146060';
                                   dave2.selected = false;
-                                  dave2.selectedColor = '#ff485e';
+                                  dave2.fillColor = '#146060';
 
-                            circlePaths[0].selectedColor = '#ff485e';
+                            circlePaths[0].fillColor = '#ff6420';
                                   dave3.selected = false;
-                                  dave3.selectedColor = '#ff485e';
-                            circlePaths[0].selectedColor = '#ff485e';
+                                  dave3.fillColor = '#ff6420';
+                            circlePaths[0].fillColor = '#146060';
                                   dave4.selected = false;
-                                  dave4.selectedColor = '#ff485e';
-
+                                  dave4.fillColor = '#146060';
+                            circlePaths[0].fillColor = '#146060';
+                                  dave5.selected = false;
+                                  dave5.fillColor = '#fbae36';
+                            circlePaths[0].fillColor = '#a0005c';
+                                  dave6.selected = false;
+                                  dave6.fillColor = '#a0005c';
+                            circlePaths[0].fillColor = '#ff6420';
+                                  dave7.selected = false;
+                                  dave7.fillColor = '#ff6420';
+                            circlePaths[0].fillColor = '#fbae36';
+                                  dave8.selected = false;
+                                  dave8.fillColor = '#fbae36';
+                            circlePaths[0].fillColor = '#f9005a';
+                                  dave9.selected = false;
+                                  dave9.fillColor = '#f9005a';
+                            circlePaths[0].fillColor = '#5f2441';
+                                  dave10.selected = false;
+                                  dave10.fillColor = '#5f2441';
+                            circlePaths[0].fillColor = '#ff6420';
+                                  dave11.selected = false;
+                                  dave11.fillColor = '#ff6420';
 
 var largeCircle = new Path.Circle({
 	center: [535, 120],
-	radius: 80
+	radius: 50
 });
 
+var largeCircleIndex = circlePaths.length
+
 circlePaths.push(largeCircle);
+
 function onMouseMove(event) {
+
+  largeCircle.fillColor = 'white';
+
 	largeCircle.position = event.point;
 	generateConnections(circlePaths);
 }
@@ -95,12 +167,20 @@ function generateConnections(paths) {
 	// Remove the last connection paths:
 	connections.children = [];
   var debug = false;
+
 	for (var i = 0, l = paths.length; i < l; i++) {
 		for (var j = i - 1; j >= 0; j--) {
-			var path = metaball(paths[i], paths[j], 0.5, handle_len_rate, 400, j === 0, debug);
+			var path = metaball(paths[i], paths[j], 0.5, handle_len_rate, 225, j === 0, debug);
 			if (path) {
 				connections.appendTop(path);
 				path.removeOnMove();
+
+        if(i == largeCircleIndex){
+             // there is a connection, and its between dave and largeCircle
+             largeCircle.fillColor = paths[j].fillColor;
+             console.log(largeCircle)
+         }
+
 			}
       debug = false;
 		}
@@ -149,7 +229,7 @@ function metaball(ball1, ball2, v, handle_len_rate, maxDistance, debug) {
 	radius2 *= d2;
 	var path = new Path({
 		segments: [p1a, p2a, p2b, p1b],
-		style: ball1.style,
+		style: ball2.style,
 		closed: false
 	});
   if (debug) { path.fullySelected = false; }
