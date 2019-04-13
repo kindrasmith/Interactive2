@@ -9,6 +9,9 @@
 .clickstuff{
   cursor: pointer;
 }
+.hoverstuff{
+  cursor: cell;
+}
 
 
 
