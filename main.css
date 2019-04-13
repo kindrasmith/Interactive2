@@ -2,15 +2,11 @@
  {
    padding:0px;
    margin: 0px;
-   cursor: copy;
 
 }
 
 .clickstuff{
   cursor: pointer;
-}
-.hoverstuff{
-  cursor: cell;
 }
 
 
@@ -21,7 +17,7 @@
         scroll-snap-type: mandatory;
         scroll-snap-points-y: repeat(100vh);
         scroll-snap-type: y mandatory;
-        cursor: cell;
+      
 
       }
 
