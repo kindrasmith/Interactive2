@@ -6,7 +6,7 @@
 }
 
 .clickymouse{
-  cursor: cell;
+  cursor: pointer;
 }
 
   body{ background-color: black;
