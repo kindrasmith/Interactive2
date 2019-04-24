@@ -1072,7 +1072,7 @@ if(!$.zoomooz) {
 
     function constructDefaultSettings() {
         var retObject = {
-            targetsize: 20,
+            targetsize: 15,
             scalemode: "both",
             root: $(document.body),
             debug: false,
