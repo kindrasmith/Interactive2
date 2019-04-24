@@ -1,0 +1,232 @@
+/* CSS files add styling rules to your content */
+
+*{margin:0px;
+  padding: 0px;
+}
+
+
+
+
+@media only screen and  (min-width: 601px) {
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h3 {
+  font-family: benton-sans,sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 15px;
+line-height: 22px;
+margin-top: -5px;
+}
+
+h2 {
+  font-family: benton-sans,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+line-height: 22px;
+margin-top: 5px;
+letter-spacing: 2.3px;
+
+}
+
+h1 {
+  font-family: lunatix,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: -2px;
+}
+
+h4 {
+font-family: benton-sans,sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 15px;
+line-height: 22px;
+width: 150px;
+
+}
+h5 {
+font-family: benton-sans,sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 15px;
+line-height: 22px;
+width: 150px;
+}
+
+h6 {
+font-family: benton-sans,sans-serif;
+font-weight: 50;
+font-style: normal;
+font-size: 10px;
+line-height: 22px;
+margin-top: 5px;
+margin-left: 0px;
+letter-spacing: 4.8px;
+}
+
+
+
+
+.cc1{
+  position: absolute;
+    /* margin: 0 auto 0 auto; */
+    width:577px;
+    top:0px;
+    left: calc(50vw - 300px);
+}
+.cc2{
+  position: absolute;
+    /* margin: 0 auto 0 auto; */
+    width:577px;
+    top:37px;
+    left: calc(50vw - 262px);
+}
+.cc3{
+  position: absolute;
+    /* margin: 0 auto 0 auto; */
+    width:577px;
+    top:37px;
+    left: calc(50vw - 262px);
+}
+/* #cc1{
+  /* position: absolute; */
+    /* margin: 0 auto 0 auto; */
+    /* width:577px
+} */
+
+.maincolumn{
+  margin-top: 10px;
+width: 290px;
+position: absolute;
+}
+
+.dots{
+  margin-left: 820px;
+  margin-top: 665px;
+}
+
+.sideinfo{
+  position: absolute;
+  right: -210px;
+  bottom: 70px;
+
+}
+.sideinfo2{
+  position: absolute;
+  right: -210px;
+  bottom: 0px;
+}
+
+#image.hidden {
+
+}
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+/* header */
+h1 {
+  font-family: lunatix,sans-serif;
+  font-weight: 470;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: 25px;
+  margin-top: 15px;
+  letter-spacing: 8px;
+}
+/* exhibtion title */
+h2 {
+  font-family: benton-sans,sans-serif;
+font-weight: 470;
+font-style: normal;
+font-size: 20px;
+line-height: 22px;
+margin-top: 5px;
+margin-bottom: 10px;
+margin-left: 26px;
+letter-spacing: 6.5px;
+}
+
+  /* body text */
+  h3 {
+  font-family: benton-sans,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 18px;
+  margin-left: 26px;
+  width: 352px;
+  }
+
+  h4 {
+  font-family: benton-sans,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 22px;
+  width: 150px;
+  margin-top: 20px;
+
+  }
+  h5 {
+  font-family: benton-sans,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  width: 150px;
+  }
+
+  h6 {
+  font-family: benton-sans,sans-serif;
+  font-weight: 50;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 22px;
+  margin-top: -5px;
+  margin-left: 26px;
+  letter-spacing: 7.7px;
+  margin-bottom: 5px;
+  }
+
+
+
+  .cc1{
+    /* position: absolute; */
+      margin: 0 auto 0 auto;
+      transform: scale(0.58);
+      transition: ease-in-out;
+      margin-left: 25px;
+      margin-top: 20px;
+  }
+
+
+  .dots{
+
+    margin-left: 0px;
+    margin-top: -200px;
+    transform: scale(1.5);
+
+  }
+
+
+
+
+
+
+  }
+
+
+
+
+
+/* view width */
