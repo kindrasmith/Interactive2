@@ -18,11 +18,10 @@ h3 {
   font-family: benton-sans,sans-serif;
 font-weight: 300;
 font-style: normal;
-font-size: 17px;
-line-height: 22px;
+font-size: 14px;
 margin-top: 30px;
-margin-left: 30px;
-line-height: 30px;
+margin-left: 50px;
+line-height: 26px;
 }
 
 h2 {
@@ -32,7 +31,7 @@ font-style: normal;
 font-size: 20px;
 line-height: 22px;
 margin-top: 5px;
-  margin-left: 33px;
+  margin-left: 53px;
 letter-spacing: 2.3px;
 
 }
@@ -42,7 +41,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 50px;
 }
 
@@ -71,7 +70,7 @@ font-style: normal;
 font-size: 13px;
 line-height: 22px;
 margin-top: 5px;
-  margin-left: 33px;
+  margin-left: 53px;
 letter-spacing: 3.2px;
 color: grey;
 }
@@ -83,8 +82,8 @@ color: grey;
   position: absolute;
     /* margin: 0 auto 0 auto; */
     width:577px;
-    top:0px;
-    left: calc(50vw - 300px);
+    top:55px;
+    left: calc(50vw - 262px);
 }
 .cc2{
   position: absolute;
@@ -210,16 +209,16 @@ letter-spacing: 6.5px;
       margin: 0 auto 0 auto;
       transform: scale(0.58);
       transition: ease-in-out;
-      margin-left: 25px;
-      margin-top: 20px;
+      margin-left: -75px;
+      margin-top: -160px;
   }
 
 
   .dots{
 
-    margin-left: 0px;
-    margin-top: -200px;
-    transform: scale(1.5);
+    margin-left: 130px;
+    margin-top: -230px;
+    transform: scale(0.75);
 
   }
 
@@ -231,7 +230,13 @@ letter-spacing: 6.5px;
   }
 
 
-
+#bigImage {
+  display: none;
+  position: absolute;
+}
+#bigImage.enabled {
+  display: block;
+}
 
 
 /* view width */
