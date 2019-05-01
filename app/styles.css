@@ -6,8 +6,20 @@
 
 
 
+.dots a {
+  text-decoration: none;
+}
+
+
+.headers a {
+  text-decoration: none;
+  color: black;
+}
+
+
 
 @media only screen and  (min-width: 601px) {
+
 
 body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
@@ -32,7 +44,7 @@ font-size: 20px;
 line-height: 22px;
 margin-top: 5px;
   margin-left: 53px;
-letter-spacing: 2.3px;
+letter-spacing: 8px;
 
 }
 
@@ -85,6 +97,16 @@ color: grey;
     top:55px;
     left: calc(50vw - 262px);
 }
+
+.cc1:hover  {cursor: zoom-in;}
+
+.moveOver {
+
+    position: relative;
+    left: 23.5px;
+
+}
+
 .cc2{
   position: absolute;
     /* margin: 0 auto 0 auto; */
@@ -112,7 +134,8 @@ position: absolute;
 }
 
 .dots{
-  margin-left: 820px;
+  /* margin-left: 820px; */
+  margin-left: calc(50vw - 20px);
   margin-top: 665px;
 }
 
@@ -157,7 +180,8 @@ line-height: 22px;
 margin-top: 5px;
 margin-bottom: 10px;
 margin-left: 26px;
-letter-spacing: 6.5px;
+letter-spacing: 14.3px;
+
 }
 
   /* body text */
@@ -211,6 +235,7 @@ letter-spacing: 6.5px;
       transition: ease-in-out;
       margin-left: -75px;
       margin-top: -160px;
+
   }
 
 
@@ -222,20 +247,21 @@ letter-spacing: 6.5px;
 
   }
 
-
-
-
-
-
   }
 
+.dotsindiv:hover, .dotsindiv.active{
+opacity: 0.5;
+
+}
 
 #bigImage {
   display: none;
   position: absolute;
+    cursor: zoom-out;
 }
 #bigImage.enabled {
   display: block;
+    cursor: zoom-out;
 }
 
 

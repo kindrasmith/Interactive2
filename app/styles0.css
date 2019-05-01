@@ -8,23 +8,59 @@ body {
   font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
 }
-
-/* h1 {
+h1 {
   font-family: lunatix,sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 250px;
-} */
-/* .nameintro{
-overflow: hidden;
-text-align: center;
-margin-top: 35vh;
-} */
+  font-size: 200px;
 
-.art{
-height: 100vh;
 }
+
+
+@-webkit-keyframes textan {
+  from {-webkit-transform: opacity(0%);}
+  to {-webkit-transform:  opacity(100%);}
+}
+
+
+.nameintro {
+  text-align: center;
+  -webkit-animation: textan 5s ;
+  -webkit-animation: textan 5s ;
+}
+.art{
+  /* width:300px; */
+-webkit-animation: mymove 3s ;
+-webkit-animation: mymove 3s ;
+text-align: center;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {-webkit-transform: rotate(0deg);}
+  50% {
+    -webkit-transform: rotate(360deg);
+  }
+
+  to {-webkit-transform: translateX(-625px);}
+}
+
+
+
+/* Standard syntax */
+
+
+
 canvas{
   margin:auto;
   display: block;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .art{
+  margin: 0 auto 0 auto;
+  transform: scaleX(40%);
+  }
 }
