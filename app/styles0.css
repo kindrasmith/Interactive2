@@ -19,24 +19,28 @@ h1 {
 
 
 @-webkit-keyframes textan {
-  from {-webkit-transform: opacity(0%);}
-  to {-webkit-transform:  opacity(100%);}
+  /* from {top: 0px;}
+  to {top: 200px; background-color: blue;} */
+
 }
 
-
 .nameintro {
-padding-top: 30vh;
+
   text-align: center;
   -webkit-animation: textan 5s ;
   -webkit-animation: textan 5s ;
+
+
 }
 .art{
   /* width:300px; */
-  position: absolute;
 -webkit-animation: mymove 3s ;
 -webkit-animation: mymove 3s ;
+animation-fill-mode: forwards;
   animation-iteration-count: 1;
 text-align: center;
+filter: saturate(150%);
+
 }
 
 /* Chrome, Safari, Opera */
