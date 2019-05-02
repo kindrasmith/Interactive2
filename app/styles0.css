@@ -14,6 +14,7 @@ h1 {
   font-style: normal;
   font-size: 200px;
 
+
 }
 
 
@@ -24,14 +25,17 @@ h1 {
 
 
 .nameintro {
+padding-top: 30vh;
   text-align: center;
   -webkit-animation: textan 5s ;
   -webkit-animation: textan 5s ;
 }
 .art{
   /* width:300px; */
+  position: absolute;
 -webkit-animation: mymove 3s ;
 -webkit-animation: mymove 3s ;
+  animation-iteration-count: 1;
 text-align: center;
 }
 
@@ -40,9 +44,14 @@ text-align: center;
   from {-webkit-transform: rotate(0deg);}
   50% {
     -webkit-transform: rotate(360deg);
+
   }
 
   to {-webkit-transform: translateX(-625px);}
+  100% {
+    -webkit-transform: rotate(-625px);
+
+  }
 }
 
 
