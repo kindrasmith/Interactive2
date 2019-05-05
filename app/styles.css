@@ -166,8 +166,8 @@ h1 {
   font-weight: 470;
   font-style: normal;
   font-size: 50px;
-  margin-left: 25px;
-  margin-top: 15px;
+  margin-left: 24px;
+  margin-top: 20px;
   letter-spacing: 8px;
 }
 /* exhibtion title */
@@ -193,6 +193,7 @@ letter-spacing: 14.3px;
   line-height: 18px;
   margin-left: 26px;
   width: 352px;
+  margin-top: 20px;
   }
 
   h4 {
@@ -202,7 +203,7 @@ letter-spacing: 14.3px;
   font-size: 20px;
   line-height: 22px;
   width: 150px;
-  margin-top: 20px;
+  margin-top: 30px;
 
   }
   h5 {
@@ -212,6 +213,7 @@ letter-spacing: 14.3px;
   font-size: 18px;
   line-height: 22px;
   width: 150px;
+    margin-top: 0px;
   }
 
   h6 {
@@ -222,7 +224,7 @@ letter-spacing: 14.3px;
   line-height: 22px;
   margin-top: -5px;
   margin-left: 26px;
-  letter-spacing: 7.7px;
+  letter-spacing: 5px;
   margin-bottom: 5px;
   }
 
@@ -234,7 +236,7 @@ letter-spacing: 14.3px;
       transform: scale(0.58);
       transition: ease-in-out;
       margin-left: -75px;
-      margin-top: -160px;
+      margin-top: -150px;
 
   }
 
